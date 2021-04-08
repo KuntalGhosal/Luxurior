@@ -1,187 +1,187 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
 }
 img {
-    vertical-align: middle;
-    border-style: none;
-    width: 210px;
-    margin-left: 10%;
+  vertical-align: middle;
+  border-style: none;
+  width: 210px;
+  margin-left: 10%;
 }
-nav{
-    background-color: rgb(255, 220, 214);
+nav {
+  background-color: rgb(255, 220, 214);
 }
 /* .collapse navbar-collapse{
     margin-left: 20%;
 } */
-ul li a{
-    color: black;
-    font-weight: bold;
+ul li a {
+  color: black;
+  font-weight: bold;
 }
-ul li{
-    margin-left: 15px;
+ul li {
+  margin-left: 15px;
 }
-#navbarNav{
-justify-content: flex-end;    
+#navbarNav {
+  justify-content: flex-end;
 }
-#navbarNav ul li a:hover{
-   color: brown;
+#navbarNav ul li a:hover {
+  color: brown;
 }
-#navbarNav ul li a button{
-    font-weight: bold;
-    padding: 5px;
-    color: white;
-    background-color: black;
-    width: 180px;
-    border: 1px solid black;
-    border-radius: 2px;
+#navbarNav ul li a button {
+  font-weight: bold;
+  padding: 5px;
+  color: white;
+  background-color: black;
+  width: 180px;
+  border: 1px solid black;
+  border-radius: 2px;
 }
-#navbarNav ul #xyz{
-    margin-left: 60px;
+#navbarNav ul #xyz {
+  margin-left: 60px;
 }
-#weed{
-    margin-top: 0.8%;
+#weed {
+  margin-top: 0.8%;
 }
-.backimg{
-    background-image:url("tahir1.jpg");
-    width: 100%;
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color:brown;
+.backimg {
+  background-image: url("tahir1.jpg");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: brown;
 }
-.backimg p{
-    font-size: 8rem;
-    font-family: 'Lora', serif;
+.backimg p {
+  font-size: 8rem;
+  font-family: "Lora", serif;
+  /* text-align: center; */
+  padding-top: 7%;
+  /* text-transform: uppercase; */
+}
+.backimg span {
+  font-size: 3rem;
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  /* width: 29%; */
+  /* margin-left: 35.5%; */
+  /* margin-right: 35.5%; */
+  /* padding-top: 2%; */
+  /* text-transform: uppercase; */
+}
+@media (max-width: 998px) {
+  html {
+    font-size: 60%;
+  }
+  .backimg p {
+    font-size: 7rem;
+    font-family: "Lora", serif;
     /* text-align: center; */
     padding-top: 7%;
-    /* text-transform: uppercase; */
-}
-.backimg span{
-    font-size: 3rem;
-    font-family: 'Inconsolata', monospace;
-    text-align: center;
-    /* width: 29%; */
-    /* margin-left: 35.5%; */
-    /* margin-right: 35.5%; */
-    /* padding-top: 2%; */
-    /* text-transform: uppercase; */
-}
-@media(max-width:998px){
-    html{
-        font-size: 60%;
-    }
-    .backimg p{
-        font-size: 7rem;
-        font-family: 'Lora', serif;
-        /* text-align: center; */
-        padding-top: 7%;
-}
-.backimg span{
+  }
+  .backimg span {
     font-size: 2rem;
-    font-family: 'Inconsolata', monospace;
+    font-family: "Inconsolata", monospace;
     text-align: center;
-}
-.backimg{
+  }
+  .backimg {
     /* background-image:url("tahir1.jpg"); */
     width: 100%;
     height: 60vh;
     background-size: cover;
     background-position: center;
     text-align: center;
-    color:brown;
-}
-.backimgone{
+    color: brown;
+  }
+  .backimgone {
     /* background-image:url("tahir1.jpg"); */
     width: 100%;
     height: 50vh;
     background-size: cover;
     background-position: center;
     text-align: center;
-    color:brown;
+    color: brown;
+  }
 }
-}
-@media(max-width:768px){
-    html{
-        font-size: 50%;
-    }
-    .backimg p{
-        font-size: 6rem;
-        font-family: 'Lora', serif;
-        /* text-align: center; */
-        padding-top: 7%;
-}
-.backimg span{
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .backimg p {
+    font-size: 6rem;
+    font-family: "Lora", serif;
+    /* text-align: center; */
+    padding-top: 7%;
+  }
+  .backimg span {
     font-size: 1rem;
-    font-family: 'Inconsolata', monospace;
+    font-family: "Inconsolata", monospace;
     text-align: center;
-}
-.backimg{
+  }
+  .backimg {
     /* background-image:url("tahir1.jpg"); */
     width: 100%;
     height: 40vh;
     background-size: cover;
     background-position: center;
     text-align: center;
-    color:brown;
-}
-.backimgone{
+    color: brown;
+  }
+  .backimgone {
     /* background-image:url("tahir1.jpg"); */
     width: 100%;
     height: 30vh;
     background-size: cover;
     background-position: center;
     text-align: center;
-    color:brown;
-}
-.afterbackimg{
+    color: brown;
+  }
+  .afterbackimg {
     /* text-align:center; */
     margin: auto;
     margin-left: 5%;
     margin-right: 10%;
     /* color: white; */
-    font-family: 'New Tegomin', serif;
+    font-family: "New Tegomin", serif;
     /* background-image: url("tahirbackimg3.jpg"); */
     /* background-size: cover; */
     /* width: 100vh; */
-}
-.afterbackimg .a{
+  }
+  .afterbackimg .a {
     font-size: 3rem;
     /* margin-left: 30%; */
     /* margin-right: 30%; */
-    font-family: 'New Tegomin', serif;
+    font-family: "New Tegomin", serif;
     font-weight: bold;
-}
-.afterbackimg .b{
+  }
+  .afterbackimg .b {
     font-size: 2rem;
     /* margin-left: 30%; */
     /* margin-right: 30%; */
-    font-family: 'New Tegomin', serif;
+    font-family: "New Tegomin", serif;
+  }
 }
+.afterbackimg {
+  /* text-align:center; */
+  margin: auto;
+  margin-left: 5%;
+  margin-right: 10%;
+  /* color: white; */
+  font-family: "New Tegomin", serif;
+  /* background-image: url("tahirbackimg3.jpg"); */
+  /* background-size: cover; */
+  /* width: 100vh; */
 }
-.afterbackimg{
-    /* text-align:center; */
-    margin: auto;
-    margin-left: 5%;
-    margin-right: 10%;
-    /* color: white; */
-    font-family: 'New Tegomin', serif;
-    /* background-image: url("tahirbackimg3.jpg"); */
-    /* background-size: cover; */
-    /* width: 100vh; */
+.afterbackimg .a {
+  font-size: 3rem;
+  /* margin-left: 30%; */
+  /* margin-right: 30%; */
+  font-family: "New Tegomin", serif;
+  font-weight: bold;
 }
-.afterbackimg .a{
-    font-size: 3rem;
-    /* margin-left: 30%; */
-    /* margin-right: 30%; */
-    font-family: 'New Tegomin', serif;
-    font-weight: bold;
-}
-.afterbackimg .b{
-    font-size: 2rem;
-    /* margin-left: 30%; */
-    /* margin-right: 30%; */
-    font-family: 'New Tegomin', serif;
+.afterbackimg .b {
+  font-size: 2rem;
+  /* margin-left: 30%; */
+  /* margin-right: 30%; */
+  font-family: "New Tegomin", serif;
 }
 /* .flixone{
     display: flex;
@@ -203,12 +203,12 @@ margin-right: 10%;
     margin-left: 10%;
     margin-right: 10%;
     } */
-    .backimgone{
-        background-image:url("tahirbackimg7.jpg");
-        width: 100%;
-        height: 70vh;
-        background-size: cover;
-        background-position: center;
-        text-align: center;
-        color:brown;
-    }
+.backimgone {
+  background-image: url("tahirbackimg7.jpg");
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: brown;
+}
