@@ -129,7 +129,7 @@
   }
 }
 .aftbackimgtwo{
-  color: rgb(8, 0, 0);
+  color: brown;
   background-color: #d4d3d3;
   font-size: 24px;
   text-align: center;  
@@ -153,12 +153,13 @@
   justify-content: space-around;
 }
 .aftcard{
-  color: #868686;
+  color: brown;
   text-align: center;
   background-color: #fff;
   font-family:'Kanit', sans-serif ;
   font-size: 24px;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .cardtwo{
   width: 300px;
@@ -209,7 +210,7 @@
   justify-content: flex-start;
   /* text-decoration: none; */
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 700;
 }
 .address li{
@@ -223,6 +224,9 @@
   width: 10rem;
   height: 5rem;
 }
+.site{
+  margin-left: 5%;
+}
 .sitelogos {
   display: flex;
 }
@@ -233,6 +237,9 @@
 }
 .followpage{
   background-color:rgb(255, 220, 214) ;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   /* margin-left: 20%; */
 }
 .followpage p{
@@ -240,6 +247,4 @@
   color: brown;
   font-size: 22px;
 }
-.site{
-  margin-left: 22%;
-}
+

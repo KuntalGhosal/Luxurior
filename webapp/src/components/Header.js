@@ -3,9 +3,11 @@ import '../components/Header.css'
 import {Navbar,Nav,Form,FormControl,Button} from "react-bootstrap";
 import Logo from "../assets/nawazproject.png";
 import Cardone from "../components/Cardone";
-import Ione from "../assets/calander.png";
-import Itwo from "../assets/home.webp";
-import Ithree from "../assets/warrenty.jpg";
+import Wlone from "../assets/icons8-24-7-open-sign-24.png"
+import Wltwo from "../assets/icons8-alphabetical-sorting-26.png"
+import Wlthree from "../assets/icons8-best-seller-64.png"
+import Wlfour from "../assets/icons8-shield-80.png"
+import Wlfive from "../assets/icons8-delivery-time-64.png"
 import Cardtwo from "../components/Cardtwo";
 import Bone from "../assets/armin-djuhic-mcL2f-J74GY-unsplash.jpg";
 import Btwo from "../assets/aaina-sharma-J8iOJZEPFQ4-unsplash.jpg";
@@ -43,6 +45,31 @@ const Header = (props) => {
     <p>Luxurior</p>
     <span>design & decoratian</span>
   </div>
+  <div className="aftbackimgtwo">Why Luxurior?</div>
+<div className="allcard">
+  <Cardone
+  imglink={Wlone}
+  something="on time delivery"
+  />
+  <Cardone
+  imglink={Wltwo}
+  something="customar satisfaction"
+  />
+  <Cardone
+  imglink={Wlthree}
+  something="best designs"
+  />
+</div>
+<div className="allcard">
+  <Cardone
+ imglink={Wlfour}
+ something="exchange policy"
+  />
+  <Cardone
+ imglink={Wlfive}
+ something="support"
+  />
+</div>
   <div className="afterbackimg">
     <p className="a">Complete interior design service</p>
     <p className="b">Luxurior is a luxury interior design studio that creates timeless interiors individually tailored to your lifestyle, personal tastes and the unique character of your home. From the initial consultation to visual concepts and completion our highly skilled design team, led by Founder and Creative Director, meticulously plan and design every detail to finesse your home to perfection.
@@ -55,21 +82,32 @@ const Header = (props) => {
     <p className="b">We offer and include high end bespoke joinery designed by Luxurior to meet our clients requirements and needs. This includes smaller pieces such as coffee tables, side boards and radiator covers to larger pieces such as wardrobes, walk in wardrobes, bookcases, media units, dining tables, bathrooms and complete kitchens... tailored and made to fit the space perfectly.we make you Residential space comfort and elegant.</p>
   </div>
 <div className="backimgtwo"></div>
-<div className="aftbackimgtwo">Why Luxurior?</div>
+{/* <div className="aftbackimgtwo">Why Luxurior?</div>
 <div className="allcard">
-    <Cardone
-    imglink={Ione}
-    something="45 days or we pay you rent"
-    />
-    <Cardone
-    imglink={Itwo}
-    something="2000+ happy customers"
-    />
-    <Cardone
-    imglink={Ithree}
-    something="upto 10 year warrenty"
-    />
+  <Cardone
+  imglink={Wlone}
+  something="on time delivery"
+  />
+  <Cardone
+  imglink={Wltwo}
+  something="customar satisfaction"
+  />
+  <Cardone
+  imglink={Wlthree}
+  something="best designs"
+  />
 </div>
+<div className="allcard">
+  <Cardone
+ imglink={Wlfour}
+ something="exchange policy"
+  />
+  <Cardone
+ imglink={Wlfive}
+ something="support"
+  />
+</div> */}
+
 <div className="aftcard">
   Designs by Luxurior
 </div>

@@ -14,6 +14,10 @@ export default function Followus() {
                 <img src={Whatsapp} />
             </div>
             </div>
+            <div>
+                <p>Thank you for visiting our site</p>
+            </div>
+            
         </div>
     )
 }
