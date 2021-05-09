@@ -2,10 +2,11 @@
   background-color: rgb(255, 220, 214);
  /* position: sticky; */
 }
-.navletters{
+#navletters{
   color: #868686;
   font-family: 'Work Sans', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
+  text-decoration: none;
 }
 .main-container{
   width: 100%;
@@ -16,17 +17,30 @@
   height: 5rem;
 }
 #navletters:hover{
-  color: brown;
+  color: black;
 }
-#buttonnav{
+/* .buttonnav{
   border: 1px solid brown;
   background-color: brown;
   color: #fff;
   font-family: 'Work Sans', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
+  font-weight: bold;
+} */
+#nav-dropdown{
+  border: 1px solid brown;
+  background-color: brown;
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  font-weight: 400;
+  text-align: center;
 }
 .backimg{
   background-image: url("../assets/aaron-huber-G7sE2S4Lab4-unsplash.jpg");
@@ -320,4 +334,49 @@
   margin-right: 2%;
   border-radius: 5px;
 }
-
+.resdiv{
+  color: brown;
+  background-color: #d3d1d1;
+  font-size: 22px;
+  font-weight: 800;
+  margin-top:10rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+.resbtn{
+  border: 1px solid brown;
+  color:brown;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 400;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  margin: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.totalblock{
+  margin-bottom: 4.5rem;
+  display: flex;
+  justify-content:space-evenly;
+}
+.comdiv{
+ color:brown;
+ border: 1px solid brown;
+ border-radius: 10px;
+ margin: 10px;
+ padding: 15px 10px 15px 10px;
+ text-align: center;
+ width: 250PX;
+ height: 60PX;
+ margin-left: auto;
+ margin-right: auto;
+}

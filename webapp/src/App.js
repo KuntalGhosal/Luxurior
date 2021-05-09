@@ -8,6 +8,8 @@ import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
 import Home from './screens/Home';
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Recidancialestimate from "./components/Recidancialestimate";
+import Comarcialestimate from "./components/Comarcialestimate";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/about" component={About}/>
+                <Route path="/recidancialestimate" component={Recidancialestimate}/>
+                <Route path="/comarcialestimate" component={Comarcialestimate}/>
             </Switch>
             <Footer/>
         </div>

@@ -4,6 +4,17 @@ import {Navbar,Nav,NavDropdown} from "react-bootstrap";
 import Logo from "../assets/nawazproject.png";
 import { Link } from "react-router-dom";
 export default function Navigation() {
+
+  const [rssStyle,setResStyle]=useState(false);
+  const [comStyle,setComStyle] = useState(false);
+  const Residencial = () => {
+    setResStyle(true);
+    setComStyle(false);
+  }
+  const Comarcial = () => {
+    setComStyle(true);
+    setResStyle(false);
+  }
     return (
         <>
           <Navbar expand="lg" id="totalnav" fixed='top'>
@@ -11,16 +22,19 @@ export default function Navigation() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link className="navletters"><Link to="/about">About Us</Link></Nav.Link>
-      <NavDropdown title="Catagory" id="basic-nav-dropdown" className="navletters" >
+      <Nav.Link><Link id="navletters" to="/about">About Us</Link></Nav.Link>
+      <NavDropdown title="Catagory" id="basic-nav-dropdown" id="navletters" >
         <NavDropdown.Item href="#action/3.1">Recidancial</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Comarcial</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link className="navletters" href="">Why Luxurior? </Nav.Link>
-      <Nav.Link className="navletters" href="">Design Gallary</Nav.Link>
-      <Nav.Link className="navletters" href="">Our Services</Nav.Link >
-      <Nav.Link className="navletters" href="">Contact Us</Nav.Link>
-      <Nav.Link id="buttonnav" href="">Get Free Estimate</Nav.Link>
+      <Nav.Link id="navletters" href="">Why Luxurior? </Nav.Link>
+      <Nav.Link id="navletters" href="">Design Gallary</Nav.Link>
+      <Nav.Link id="navletters" href="">Our Services</Nav.Link >
+      <Nav.Link id="navletters" href="">Contact Us</Nav.Link>
+      <NavDropdown title="get free estimate" id="nav-dropdown" >
+        <NavDropdown.Item onClick={Residencial}style={ rssStyle ? { backgroundColor:"white",color:'white'} : {backgroundColor:'#ffffe6',color:'black'} }> <Link id="navletters" to="/recidancialestimate" >Recidancial</Link></NavDropdown.Item>
+        <NavDropdown.Item  onClick={Comarcial} style={ comStyle ? { backgroundColor:"brown",color:'white'} : {backgroundColor:'white',color:'gray'} }  > <Link id="navletters" to="comarcialestimate"> Comarcial</Link></NavDropdown.Item>
+      </NavDropdown>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
