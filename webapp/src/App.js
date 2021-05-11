@@ -10,7 +10,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Recidancialestimate from "./components/Recidancialestimate";
 import Comarcialestimate from "./components/Comarcialestimate";
-
+import Whyluxriror from "./components/Whyluxriror";
 function App() {
   return (
     <div>
@@ -22,6 +22,7 @@ function App() {
                 <Route path="/about" component={About}/>
                 <Route path="/recidancialestimate" component={Recidancialestimate}/>
                 <Route path="/comarcialestimate" component={Comarcialestimate}/>
+                <Route path="/whyluxriror" component={Whyluxriror}/>
             </Switch>
             <Footer/>
         </div>

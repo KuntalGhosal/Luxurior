@@ -380,3 +380,16 @@
  margin-left: auto;
  margin-right: auto;
 }
+.h1heading{
+  color: brown;
+  font-family: 'SupercellHeadline-Heavy',sans-serif;
+  font-size: 50px;
+}
+.pheading{
+  color: black;
+  font-family: 'SupercellHeadline-Heavy',sans-serif;
+  font-size: 20px;
+}
+.carousalall{
+  margin-top: -15rem;
+}

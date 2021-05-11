@@ -27,7 +27,7 @@ export default function Navigation() {
         <NavDropdown.Item href="#action/3.1">Recidancial</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Comarcial</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link id="navletters" href="">Why Luxurior? </Nav.Link>
+      <Nav.Link><Link id="navletters" to="/whyluxriror">Why Luxurior?</Link></Nav.Link>
       <Nav.Link id="navletters" href="">Design Gallary</Nav.Link>
       <Nav.Link id="navletters" href="">Our Services</Nav.Link >
       <Nav.Link id="navletters" href="">Contact Us</Nav.Link>
