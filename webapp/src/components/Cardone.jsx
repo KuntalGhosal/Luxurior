@@ -2,7 +2,7 @@ import React from "react";
 function Cardone(props){
     return(
         <div className="cardone">
-            <img src={props.imglink}/>
+            <img src={props.imglink} alt=""/>
             <p>{props.something}</p>
         </div>
     )

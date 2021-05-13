@@ -24,7 +24,7 @@ export default function Navigation() {
     <Nav className="ml-auto">
       <Nav.Link><Link id="navletters" to="/about">About Us</Link></Nav.Link>
       <NavDropdown title="Catagory" id="basic-nav-dropdown" id="navletters" >
-        <NavDropdown.Item href="#action/3.1">Recidancial</NavDropdown.Item>
+      <NavDropdown.Item><Link id="navletters" to="/recidancialimages">Recidancial</Link></NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Comarcial</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link><Link id="navletters" to="/whyluxriror">Why Luxurior?</Link></Nav.Link>

@@ -1,9 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-// import Home from './screens/Home';
 import React from 'react';
 import Navigation from "./components/Navigation";
-// import About from "./About";
 import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
 import Home from './screens/Home';
 import About from "./components/About";
@@ -11,6 +8,7 @@ import Footer from "./components/Footer";
 import Recidancialestimate from "./components/Recidancialestimate";
 import Comarcialestimate from "./components/Comarcialestimate";
 import Whyluxriror from "./components/Whyluxriror";
+import Recidancialimages from "./components/Recidancialimages";
 function App() {
   return (
     <div>
@@ -23,6 +21,7 @@ function App() {
                 <Route path="/recidancialestimate" component={Recidancialestimate}/>
                 <Route path="/comarcialestimate" component={Comarcialestimate}/>
                 <Route path="/whyluxriror" component={Whyluxriror}/>
+                <Route path="/recidancialimages" component={Recidancialimages}/>
             </Switch>
             <Footer/>
         </div>
