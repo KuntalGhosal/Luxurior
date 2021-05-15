@@ -9,6 +9,7 @@ import Recidancialestimate from "./components/Recidancialestimate";
 import Comarcialestimate from "./components/Comarcialestimate";
 import Whyluxriror from "./components/Whyluxriror";
 import Recidancialimages from "./components/Recidancialimages";
+import Comarcialimages from "./components/Comarcialimages";
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/comarcialestimate" component={Comarcialestimate}/>
                 <Route path="/whyluxriror" component={Whyluxriror}/>
                 <Route path="/recidancialimages" component={Recidancialimages}/>
+                <Route path="/comarcialimages" component={Comarcialimages}/>
             </Switch>
             <Footer/>
         </div>

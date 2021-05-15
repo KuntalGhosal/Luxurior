@@ -72,7 +72,7 @@ export default function Header() {
         <Cardtwo
           imglinktwo={Btwo}
           heading="residencial"
-          watch=""
+          watch="/recidancialimages"
         />
         <Cardtwo
           imglinktwo={Bthree}
