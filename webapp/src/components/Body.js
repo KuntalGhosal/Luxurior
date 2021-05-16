@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 import '../components/Header.css'
-// import {Navbar,Nav,NavDropdown,Form,FormControl,Button} from "react-bootstrap";
-// import Logo from "../assets/nawazproject.png";
 import Cardone from "./Cardone";
 import Wlone from "../assets/icons8-24-7-open-sign-24.png"
 import Wltwo from "../assets/icons8-alphabetical-sorting-26.png"
@@ -12,13 +10,8 @@ import Cardtwo from "./Cardtwo";
 import Bone from "../assets/armin-djuhic-mcL2f-J74GY-unsplash.jpg";
 import Btwo from "../assets/aaina-sharma-J8iOJZEPFQ4-unsplash.jpg";
 import Bthree from "../assets/connor-wang-MNz7IGrcEl0-unsplash.jpg";
-import Lastdetails from "./Lastdetails";
-import Followus from './Followus';
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import App from "./App";
-// import Navigation from "./Navigation";
-import Footer from "./Footer";
 export default function Header() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -79,7 +72,7 @@ export default function Header() {
           <Cardtwo
             imglinktwo={Btwo}
             heading="residencial"
-            watch=""
+            watch="/recidancialimages"
           />
           <Cardtwo
             imglinktwo={Bthree}
