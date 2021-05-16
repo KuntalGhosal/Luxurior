@@ -1,18 +1,25 @@
 import React from 'react'
+import '../components/Header.css';
+import Glone from "../assets/re (1).jpg";
+import Gltwo from "../assets/residential.jpg";
+import Glthree from "../assets/residential.jpg10.jpg";
+import Glfive from "../assets/residential.jpg16.jpg";
+import Glsix from "../assets/residential.jpg36.jpg";
+import Glseven from "../assets/residential.jpg43.jpg";
 
 export default function Whiteroom() {
     return (
-        <div>
+        <div className="imgglry">
 <div class="row">
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img
-      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+      src={Glone}
       class="w-100 shadow-1-strong rounded mb-4"
       alt=""
     /> 
 
     <img
-      src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg"
+      src={Gltwo}
       class="w-100 shadow-1-strong rounded mb-4"
       alt=""
     />
@@ -20,13 +27,13 @@ export default function Whiteroom() {
 
   <div class="col-lg-4 mb-4 mb-lg-0">
     <img
-      src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
+      src={Glthree}
       class="w-100 shadow-1-strong rounded mb-4"
       alt=""
     />
 
     <img
-      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+      src={Glfive}
       class="w-100 shadow-1-strong rounded mb-4"
       alt=""
     />
@@ -34,13 +41,13 @@ export default function Whiteroom() {
 
   <div class="col-lg-4 mb-4 mb-lg-0">
     <img
-      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+      src={Glsix }
       class="w-100 shadow-1-strong rounded mb-4"
       alt=""
     />
 
     <img
-      src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
+      src={Glseven}
       class="w-100 shadow-1-strong rounded mb-4"
       alt=""
     />

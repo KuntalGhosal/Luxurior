@@ -10,6 +10,10 @@ import Comarcialestimate from "./components/Comarcialestimate";
 import Whyluxriror from "./components/Whyluxriror";
 import Recidancialimages from "./components/Recidancialimages";
 import Comarcialimages from "./components/Comarcialimages";
+import Whiteroom from "./components/Whiteroom.jsx";
+import Blueroom from "./components/Blueroom";
+import Woodenroom from "./components/Woodenroom.jsx";
+import Likeoldroom from "./components/Likeoldroom";
 function App() {
   return (
     <div>
@@ -24,6 +28,10 @@ function App() {
                 <Route path="/whyluxriror" component={Whyluxriror}/>
                 <Route path="/recidancialimages" component={Recidancialimages}/>
                 <Route path="/comarcialimages" component={Comarcialimages}/>
+                <Route path="/whiteroom" component={Whiteroom}/>
+                <Route path="/blueroom" component={Blueroom}/>
+                <Route path="/woodenroom" component={Woodenroom}/>
+                <Route path="/likeoldroom" component={Likeoldroom}/>
             </Switch>
             <Footer/>
         </div>

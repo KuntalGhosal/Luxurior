@@ -17,19 +17,19 @@ export default function Recidancialimages() {
             <Cardtwo
             imglinktwo={Whiteback}
             heading="White Straight Room"
-            watch=""/>
+            watch="/whiteroom"/>
             <Cardtwo
             imglinktwo={Blueback}
             heading="Blue Straight Room"
-            watch=""/>
+            watch="/blueroom"/>
             <Cardtwo
             imglinktwo={Woodenback}
             heading="Wooden Straight Room"
-            watch=""/>
+            watch="/woodenroom"/>
             <Cardtwo
             imglinktwo={Oldback}
             heading="Like Old Straight Room"
-            watch=""/>
+            watch="/likeoldroom"/>
             </div>
         </div>
     )
