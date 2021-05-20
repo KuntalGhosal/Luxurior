@@ -1,5 +1,5 @@
 #totalnav{
-  background-color: rgb(255, 220, 214);
+  background-color:#EDC7D7;
  /* position: sticky; */
 }
 #navletters{
@@ -58,6 +58,7 @@
   margin-left: auto;
   margin-right: auto;
   font-family: 'Kanit', sans-serif;
+  padding-top: 5rem;
 }
 .backimg span{
   color: brown;
@@ -261,7 +262,7 @@
 .lastone{
   display: flex;
   justify-content: space-around;
-  background-color:rgb(255, 220, 214) ;
+  background-color:#EDC7D7 ;
 }
 .address{
   justify-content: flex-start;
@@ -293,7 +294,7 @@
   margin-right: 20px;
 }
 .followpage{
-  background-color:rgb(255, 220, 214) ;
+  background-color:#EDC7D7;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -410,4 +411,21 @@
   width: 96%;
   margin-left: auto;
   margin-right: auto;
+}
+.fixedbutton{
+  text-align: center;
+  position: fixed;
+  margin-top:85vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.fixedbutton button{
+  padding: 15px;
+  width: 300px;
+  color: #fff;
+  background-color: brown;
+  border: 1px solid brown;
+  border-radius: 10px;
+  font-size: 18px;
 }

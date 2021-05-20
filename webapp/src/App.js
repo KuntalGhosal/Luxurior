@@ -14,12 +14,18 @@ import Whiteroom from "./components/Whiteroom.jsx";
 import Blueroom from "./components/Blueroom";
 import Woodenroom from "./components/Woodenroom.jsx";
 import Likeoldroom from "./components/Likeoldroom";
+import Hotelandcafe from './components/Hotelandcafe';
+import Library from './components/Library';
+import Office from './components/Office';
+import Alltimefooter from './components/Alltimefooter';
+
 function App() {
   return (
     <div>
       <Router>
         <div>
             <Navigation/>
+            <Alltimefooter/>
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/about" component={About}/>
@@ -32,7 +38,11 @@ function App() {
                 <Route path="/blueroom" component={Blueroom}/>
                 <Route path="/woodenroom" component={Woodenroom}/>
                 <Route path="/likeoldroom" component={Likeoldroom}/>
+                <Route path="/hotelandcafe" component={Hotelandcafe}/>
+                <Route path="/library" component={Library}/>
+                <Route path="/office" component={Office}/>
             </Switch>
+            {/* <Alltimefooter/> */}
             <Footer/>
         </div>
         </Router>

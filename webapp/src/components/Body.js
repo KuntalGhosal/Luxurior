@@ -20,8 +20,10 @@ export default function Header() {
     <>
       <div className="main-container">
         <div className="backimg">
+          <div className="pandspan">
           <p>Luxurior</p>
           <span >design & decoratian</span>
+          </div>
         </div>
         <div data-aos="fade-down" className="aftbackimgtwo">Why Luxurior?</div>
         <div data-aos="fade-right" className="allcard">
@@ -67,7 +69,7 @@ export default function Header() {
           <Cardtwo
             imglinktwo={Bone}
             heading="Comarcial"
-            watch=""
+            watch="/comarcialimages"
           />
           <Cardtwo
             imglinktwo={Btwo}

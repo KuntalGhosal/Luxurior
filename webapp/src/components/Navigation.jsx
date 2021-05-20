@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../components/Header.css'
 import {Navbar,Nav,NavDropdown} from "react-bootstrap";
-import Logo from "../assets/nawazproject.png";
+import Logo from "../assets/1_20210519_150523_0000__01.png";
 import { Link } from "react-router-dom";
 export default function Navigation() {
 

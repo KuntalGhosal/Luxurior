@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/nawazproject.png";
+import Logo from "../assets/1_20210519_150523_0000__01.png";
 function Lastdetails(){
     return(
         <div className="lastone">
