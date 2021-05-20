@@ -36,7 +36,7 @@ export default function  () {
       src={Threeimg}
     />
     <Carousel.Caption>
-      <h1 className="h1heading">Why luxurior?I’D say why not</h1>
+      <h1 className="h1heading">Why luxurior?say why not</h1>
       <p id="pheading"><li>We ensure individual’s personal preferences are evaluated during initial discussions and project brief reflects your requirements.</li></p>
       <p id="pheading"><li>Our main focus is to cut out the middleman and interact one-on-one with the customers and pass on savings to the customers.</li></p>
       <p id="pheading"><li>Moreover our company’s main aim is to prioritise the customer satisfaction.</li></p>

@@ -381,14 +381,15 @@
  margin-right: auto;
 }
 .h1heading{
-  color: brown;
+  color: black;
   font-family: 'SupercellHeadline-Heavy',sans-serif;
   font-size: 50px;
 }
-.pheading{
+#pheading{
   color: black;
   font-family: 'SupercellHeadline-Heavy',sans-serif;
   font-size: 20px;
+  font-weight: 400;
 }
 .carousalall{
   margin-top: -15rem;
