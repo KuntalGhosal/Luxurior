@@ -394,3 +394,20 @@
 .carousalall{
   margin-top: -15rem;
 }
+.resimgall{
+  color: brown;
+  text-align: center;
+  margin-top: 7rem;
+}
+.resimgall h1{
+  padding: 10px;
+}
+.resimgall h5{
+  padding: 5px;
+}
+.imgglry{
+  margin-top: 8rem;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}

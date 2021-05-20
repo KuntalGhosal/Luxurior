@@ -12,7 +12,7 @@ export default function  () {
             <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Oneimg}
+      src={Oneimg} alt=""
     />
     <Carousel.Caption>
       <h1 className="h1heading">Luxurior</h1>
@@ -22,7 +22,7 @@ export default function  () {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Fiveimg}
+      src={Fiveimg} alt=""
     />
     <Carousel.Caption>
       <h1 className="h1heading">Luxurior</h1>
@@ -33,7 +33,7 @@ export default function  () {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Threeimg}
+      src={Threeimg} alt=""
     />
     <Carousel.Caption>
       <h1 className="h1heading">Why luxurior?say why not</h1>
@@ -45,7 +45,7 @@ export default function  () {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Fourimg}
+      src={Fourimg} alt=""
     />
     <Carousel.Caption>
       <h1 className="h1heading">We are different..</h1>
@@ -57,3 +57,4 @@ export default function  () {
         </div>
     )
 }
+ 

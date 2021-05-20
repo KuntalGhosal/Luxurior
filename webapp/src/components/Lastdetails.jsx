@@ -12,7 +12,7 @@ function Lastdetails(){
                 </ul>
             </div>
             <div className="emage">
-                <img src={Logo}/>
+                <img src={Logo} alt=""/>
             </div>
         </div>
     )

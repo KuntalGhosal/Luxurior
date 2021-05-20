@@ -9,9 +9,9 @@ export default function Followus() {
             <div className="site">
             <p>Follow us on</p>
             <div className="sitelogos">
-                <img src={Facebook} />
-                <img src={Instagram} />
-                <img src={Whatsapp} />
+                <img src={Facebook} alt=""/>
+                <img src={Instagram} alt=""/>
+                <img src={Whatsapp} alt=""/>
             </div>
             </div>
             <div>
