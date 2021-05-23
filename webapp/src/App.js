@@ -18,6 +18,7 @@ import Hotelandcafe from './components/Hotelandcafe';
 import Library from './components/Library';
 import Office from './components/Office';
 import Alltimefooter from './components/Alltimefooter';
+import Designgallary from "./components/Designgallary";
 
 function App() {
   return (
@@ -41,11 +42,12 @@ function App() {
                 <Route path="/hotelandcafe" component={Hotelandcafe}/>
                 <Route path="/library" component={Library}/>
                 <Route path="/office" component={Office}/>
+                <Route path="/designgallary" component={Designgallary}/>
             </Switch>
-            {/* <Alltimefooter/> */}
             <Footer/>
         </div>
         </Router>
+        
     </div>
   );
 }

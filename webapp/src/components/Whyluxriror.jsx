@@ -1,12 +1,13 @@
 import React from 'react';
 import {Carousel} from "react-bootstrap";
 import Oneimg from "../assets/roberto-nickson-tleCJiDOri0-unsplash (1).jpg";
-import Threeimg from "../assets/Screenshot_20210406-194947__01 (1).jpg";
+import Threeimg from "../assets/residential.jpg15.jpg";
 import Fourimg from "../assets/naomi-hebert-MP0bgaS_d1c-unsplash (1).jpg";
-import Fiveimg from "../assets/Screenshot_20210406-195119__01 (1).jpg";
+import Fiveimg from "../assets/residential.jpg19.jpg";
 import '../components/Header.css';
 export default function  () {
     return (
+      <>
         <div className="carousalall">
             <Carousel>
             <Carousel.Item>
@@ -19,7 +20,11 @@ export default function  () {
       <p id="pheading">where luxury is an affordable feat </p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  </Carousel>
+  </div>
+  <div className="carousalallA">
+            <Carousel>
+            <Carousel.Item>
     <img
       className="d-block w-100"
       src={Fiveimg} alt=""
@@ -30,6 +35,10 @@ export default function  () {
       <p id="pheading"><li>In luxurior we help our clients to navigate all the modern day designs and help creating their homes. We are more than just designers, we are trusted partners who understand your requirements </li></p>
     </Carousel.Caption>
   </Carousel.Item>
+  </Carousel>
+  </div>
+  <div className="carousalallA">
+            <Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -42,6 +51,10 @@ export default function  () {
       <p id="pheading"><li>Moreover our company’s main aim is to prioritise the customer satisfaction.</li></p>
     </Carousel.Caption>
   </Carousel.Item>
+  </Carousel>
+  </div>
+  <div className="carousalallA">
+            <Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -55,6 +68,7 @@ export default function  () {
   </Carousel.Item>
 </Carousel>
         </div>
+        </>
     )
 }
  

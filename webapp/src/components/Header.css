@@ -1,7 +1,12 @@
 #totalnav{
   background-color:#EDC7D7;
+  /* display: inline; */
  /* position: sticky; */
 }
+/* .navelements{
+  display: inline-block;
+  display: flex;
+} */
 #navletters{
   color: #868686;
   font-family: 'Work Sans', sans-serif;
@@ -19,17 +24,6 @@
 #navletters:hover{
   color: black;
 }
-/* .buttonnav{
-  border: 1px solid brown;
-  background-color: brown;
-  color: #fff;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 14px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  font-weight: bold;
-} */
 #nav-dropdown{
   border: 1px solid brown;
   background-color: brown;
@@ -50,7 +44,7 @@
   background-position:center ;
   background-size: cover;
   text-align: center;
-  margin-top: 5.2rem;
+  margin-top: 6rem;
 }
 .backimg p{
   color: brown;
@@ -106,6 +100,7 @@
     background-position:center ;
     background-size: cover;
   }
+
   .cardone img{
     width: 80%;
   }
@@ -153,9 +148,16 @@
     background-position:center ;
     background-size: cover;
   }
+  .fixedbutton{
+    margin-top:15vh;
+  }
   .cardone img{
     width: 70%;
   }
+   .backimg{
+    margin-top: 5rem;
+  } 
+  
   #logo img{
     width: 10rem;
     height: 4rem;
@@ -307,7 +309,7 @@
 }
 .about{
   color: brown;
-  margin-top: 8rem;
+  margin-top: 6.8rem;
   font-size: 28px;
   text-align: center;
   font-weight: 700;
@@ -382,23 +384,26 @@
  margin-right: auto;
 }
 .h1heading{
-  color: black;
+  color:black;
   font-family: 'SupercellHeadline-Heavy',sans-serif;
   font-size: 50px;
 }
 #pheading{
-  color: black;
+  color:black;
   font-family: 'SupercellHeadline-Heavy',sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
 .carousalall{
-  margin-top: -15rem;
+  margin-top: 6.8rem;
+}
+.carousalallA{
+  margin-top: .5rem;
 }
 .resimgall{
   color: brown;
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 6.8rem;
 }
 .resimgall h1{
   padding: 10px;
@@ -415,17 +420,53 @@
 .fixedbutton{
   text-align: center;
   position: fixed;
-  margin-top:85vh;
+  margin-top:75vh;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  z-index: 100;
 }
-.fixedbutton button{
-  padding: 15px;
-  width: 300px;
+.fixedbutton button {
+  border-radius: 4px;
+  background-color:brown;
+  border: none;
   color: #fff;
-  background-color: brown;
-  border: 1px solid brown;
-  border-radius: 10px;
+  text-align: center;
   font-size: 18px;
+  padding: 15px;
+  width: 270px;
+  transition: all 0.5s;
+  cursor: pointer;
+  /* margin: 36px; */
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.fixedbutton button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.fixedbutton button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.fixedbutton button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.fixedbutton button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.dsignglry{
+  overflow: hidden;
+  margin-top: 6rem;
 }
