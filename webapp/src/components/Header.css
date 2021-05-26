@@ -1,5 +1,6 @@
 #totalnav{
-  background-color:#EDC7D7;
+  background-color:#042930;
+  height: 5rem;
   /* display: inline; */
  /* position: sticky; */
 }
@@ -44,7 +45,7 @@
   background-position:center ;
   background-size: cover;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 .backimg p{
   color: brown;
@@ -264,7 +265,7 @@
 .lastone{
   display: flex;
   justify-content: space-around;
-  background-color:#EDC7D7 ;
+  background-color:#042930;
 }
 .address{
   justify-content: flex-start;
@@ -275,7 +276,7 @@
 }
 .address li{
   text-decoration: none;
-  color: brown;
+  color: #fff;
 }
 .emage{
   justify-content:flex-end;
@@ -296,7 +297,7 @@
   margin-right: 20px;
 }
 .followpage{
-  background-color:#EDC7D7;
+  background-color:#042930;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -304,11 +305,11 @@
 }
 .followpage p{
   font-weight: 500;
-  color: brown;
+  color: white;
   font-size: 22px;
 }
 .about{
-  color: brown;
+  color: white;
   margin-top: 6.8rem;
   font-size: 28px;
   text-align: center;
