@@ -1,8 +1,6 @@
 #totalnav{
   background-color:#042930;
-  height: 5.2rem;
-  /* display: inline; */
- /* position: sticky; */
+  /* height: 5.2rem; */  
 }
 /* .navelements{
   display: inline-block;
@@ -38,7 +36,7 @@
   text-align: center;
 }
 .backimg{
-  background-image: url("../assets/aaron-huber-G7sE2S4Lab4-unsplash.jpg");
+  background-image: url("../assets/20210519_151847_0000.png");
   /* position: relative; */
   min-width: 100%;
   min-height: 90vh;
@@ -47,21 +45,20 @@
   text-align: center;
   margin-top: 5rem;
 }
-.backimg p{
-  color: brown;
+/* .backimg p img{
   font-size: 6rem;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Kanit', sans-serif;
   padding-top: 5rem;
-}
-.backimg span{
+  width: 100px;
+  height: 80px;
+  margin-top: 10rem;
+} */
+/* .backimg span{
   color: brown;
   font-size: 3rem;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Kanit', sans-serif;
-}
+} */
 .afterbackimg{
   margin-left: 5%;
   margin-right: 10%;
@@ -78,7 +75,7 @@
   font-family: 'Kanit', sans-serif;
 }
 .backimgone{
-  background-image: url("../assets/nastuh-abootalebi-JdcJn85xD2k-unsplash.jpg");
+  background-image: url("../assets/20210519_151746_0000.png");
   min-width: 100%;
   min-height: 70vh;
   background-position:center ;
@@ -86,7 +83,7 @@
   overflow: hidden;
 }
 .backimgtwo{
-  background-image: url("../assets/naomi-hebert-MP0bgaS_d1c-unsplash.jpg");
+  background-image: url("../assets/residential.jpg56.jpg");
   min-width: 100%;
   min-height: 70vh;
   background-position:center ;
@@ -148,6 +145,20 @@
     min-height: 50vh;
     background-position:center ;
     background-size: cover;
+  }
+  .fixedbutton button {
+    /* border-radius: 4px; */
+    /* background-color:brown; */
+    /* border: none; */
+    /* color: #fff; */
+    /* text-align: center; */
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /* margin: 36px; */
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
   }
   .fixedbutton{
     margin-top:15vh;
@@ -309,7 +320,7 @@
   font-size: 22px;
 }
 .about{
-  color: white;
+  color: brown;
   margin-top: 6.8rem;
   font-size: 28px;
   text-align: center;
@@ -326,7 +337,20 @@
   text-align: center;
 }
 .aftergandu{
-  background-image: url("../assets/aaron-huber-G7sE2S4Lab4-unsplash.jpg");
+  background-image: url("../assets/residential.jpg55.jpg");
+  /* position: relative; */
+  min-width: 90%;
+  min-height: 70vh;
+  background-position:center ;
+  background-size: cover;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 5px;
+}
+.afterganduone{
+  background-image: url("../assets/residential.jpg33.jpg");
   /* position: relative; */
   min-width: 90%;
   min-height: 70vh;

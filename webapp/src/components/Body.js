@@ -21,8 +21,6 @@ export default function Header() {
       <div className="main-container">
         <div className="backimg">
           <div className="pandspan">
-          <p>Luxurior</p>
-          <span >design & decoratian</span>
           </div>
         </div>
         <div data-aos="fade-down" className="aftbackimgtwo">Why Luxurior?</div>
@@ -60,6 +58,28 @@ export default function Header() {
         <div data-aos="fade-down" className="afterbackimg">
           <p className="a">Bespoke Joinery</p>
           <p className="b">We offer and include high end bespoke joinery designed by Luxurior to meet our clients requirements and needs. This includes smaller pieces such as coffee tables, side boards and radiator covers to larger pieces such as wardrobes, walk in wardrobes, bookcases, media units, dining tables, bathrooms and complete kitchens... tailored and made to fit the space perfectly.we make you Residential space comfort and elegant.</p>
+        </div>
+        <div data-aos="fade-up" className="allcardtwo">
+          <Cardtwo
+            imglinktwo={Bone}
+            heading="Comarcial"
+            watch="/comarcialimages"
+          />
+          <Cardtwo
+            imglinktwo={Btwo}
+            heading="residencial"
+            watch="/recidancialimages"
+          />
+          <Cardtwo
+            imglinktwo={Bthree}
+            heading="news letter"
+            watch=""
+          />
+          <Cardtwo
+            imglinktwo={Bthree}
+            heading="news letter"
+            watch=""
+          />
         </div>
         <div data-aos="fade-left" className="backimgtwo"></div>
         <div data-aos="fade-down" className="aftcard">
