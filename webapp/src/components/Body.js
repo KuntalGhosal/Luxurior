@@ -54,6 +54,28 @@ export default function Header() {
           As a boutique interior design studio based in Bangalore and Kolkata, exemplary service and the personal involvement of hand selected team set new standards of luxury and refinement. Whether you are looking for a Residential or Comarcial, customised lighting or a complete home renovation, trust Luxurior to exceed every expectation.
        Luxurior is a long established independent interior design and architectural design company. We have earned a first-class reputation for service, precision interior design and project management expertise that works around the lifestyle demands of you, our client.</p>
         </div>
+        <div data-aos="fade-up" className="allcardtwo">
+          <Cardtwo
+            imglinktwo={Bone}
+            heading="Comarcial"
+            watch="/comarcialimages"
+          />
+          <Cardtwo
+            imglinktwo={Btwo}
+            heading="residencial"
+            watch="/recidancialimages"
+          />
+          <Cardtwo
+            imglinktwo={Bthree}
+            heading="news letter"
+            watch=""
+          />
+          <Cardtwo
+            imglinktwo={Bthree}
+            heading="news letter"
+            watch=""
+          />
+        </div>
         <div data-aos="fade-right" className="backimgone"></div>
         <div data-aos="fade-down" className="afterbackimg">
           <p className="a">Bespoke Joinery</p>
