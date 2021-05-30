@@ -3,7 +3,7 @@ function Cardone(props){
     return(
         <div className="cardone">
             <img src={props.imglink} alt=""/>
-            <p>{props.something}</p>
+            <p className="somethingcardone">{props.something}</p>
         </div>
     )
 }

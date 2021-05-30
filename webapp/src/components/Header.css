@@ -12,6 +12,14 @@
   font-size: 15px;
   text-decoration: none;
 }
+.somethingcardone{
+  font-weight: bold;
+}
+.tranding{
+  margin-left: 3rem;
+  color: brown;
+  font-weight: bold;
+}
 .main-container{
   width: 100%;
   overflow: hidden;
