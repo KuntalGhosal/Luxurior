@@ -81,6 +81,52 @@ export default function Header() {
             // watch=""
           />
         </div>
+        <h5 className="tranding">Designer bathrooms</h5>
+        <div data-aos="fade-up" className="allcardtwo">
+          <Cardtwo
+            imglinktwo={Aone}
+            // heading="Comarcial"
+            // watch="/comarcialimages"
+          />
+          <Cardtwo
+            imglinktwo={Atwo}
+            // heading="residencial"
+            // watch="/recidancialimages"
+          />
+          <Cardtwo
+            imglinktwo={Athree}
+            // heading="news letter"
+            // watch=""
+          />
+          <Cardtwo
+            imglinktwo={Afour}
+            // heading="news letter"
+            // watch=""
+          />
+        </div>
+        <h5 className="tranding">Modular Kitchen</h5>
+        <div data-aos="fade-up" className="allcardtwo">
+          <Cardtwo
+            imglinktwo={Aone}
+            // heading="Comarcial"
+            // watch="/comarcialimages"
+          />
+          <Cardtwo
+            imglinktwo={Atwo}
+            // heading="residencial"
+            // watch="/recidancialimages"
+          />
+          <Cardtwo
+            imglinktwo={Athree}
+            // heading="news letter"
+            // watch=""
+          />
+          <Cardtwo
+            imglinktwo={Afour}
+            // heading="news letter"
+            // watch=""
+          />
+        </div>
         <div data-aos="fade-right" className="backimgone"></div>
         <div data-aos="fade-down" className="afterbackimg">
           <p className="a">Bespoke Joinery</p>

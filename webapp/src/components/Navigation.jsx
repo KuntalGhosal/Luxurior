@@ -30,7 +30,7 @@ export default function Navigation() {
       </NavDropdown>
       <Nav.Link><Link id="navletters" to="/whyluxriror">Why Luxurior?</Link></Nav.Link>
       <Nav.Link><Link id="navletters" to="/designgallary">Design Gallary</Link></Nav.Link>
-      <Nav.Link id="navletters" href="">Our Services</Nav.Link >
+      <Nav.Link><Link id="navletters" to="/ourservices">Our services</Link></Nav.Link>
       <Nav.Link id="navletters" href="">Contact Us</Nav.Link>
       <NavDropdown title="get free estimate" id="nav-dropdown" >
         <NavDropdown.Item onClick={Residencial}style={ rssStyle ? { backgroundColor:"brown",color:'white'} : {backgroundColor:'#ffffe6',color:'black'} }> <Link id="navletters" to="/recidancialestimate" >Recidancial</Link></NavDropdown.Item>
