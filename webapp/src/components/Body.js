@@ -16,6 +16,12 @@ import Aone from "../assets/pexels-jonathan-borba-3285193.jpg"
 import Atwo from "../assets/pexels-pew-nguyen-244134.jpg"
 import Athree from "../assets/residential.jpg45.jpg"
 import Afour from "../assets/residential.jpg25.jpg"
+import Cone from "../assets/naomi-hebert-MP0bgaS_d1c-unsplash (1).jpg"
+import Ctwo from "../assets/residential.jpg6.jpg"
+import Cthree from "../assets/residential.jpg52.jpg"
+import Cfour from "../assets/residential.jpg54.jpg"
+import Done from "../assets/residential.jpg46.jpg"
+
 export default function Header() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -84,7 +90,7 @@ export default function Header() {
         <h5 className="tranding">Designer bathrooms</h5>
         <div data-aos="fade-up" className="allcardtwo">
           <Cardtwo
-            imglinktwo={Aone}
+            imglinktwo={Done}
             // heading="Comarcial"
             // watch="/comarcialimages"
           />
@@ -107,22 +113,22 @@ export default function Header() {
         <h5 className="tranding">Modular Kitchen</h5>
         <div data-aos="fade-up" className="allcardtwo">
           <Cardtwo
-            imglinktwo={Aone}
+            imglinktwo={Cone}
             // heading="Comarcial"
             // watch="/comarcialimages"
           />
           <Cardtwo
-            imglinktwo={Atwo}
+            imglinktwo={Ctwo}
             // heading="residencial"
             // watch="/recidancialimages"
           />
           <Cardtwo
-            imglinktwo={Athree}
+            imglinktwo={Cthree}
             // heading="news letter"
             // watch=""
           />
           <Cardtwo
-            imglinktwo={Afour}
+            imglinktwo={Cfour}
             // heading="news letter"
             // watch=""
           />
@@ -132,26 +138,19 @@ export default function Header() {
           <p className="a">Bespoke Joinery</p>
           <p className="b">We offer and include high end bespoke joinery designed by Luxurior to meet our clients requirements and needs. This includes smaller pieces such as coffee tables, side boards and radiator covers to larger pieces such as wardrobes, walk in wardrobes, bookcases, media units, dining tables, bathrooms and complete kitchens... tailored and made to fit the space perfectly.we make you Residential space comfort and elegant.</p>
         </div>
+        <div data-aos="fade-down" className="aftbackimgtwo">Why Choose Us?</div>
         <div data-aos="fade-up" className="allcardtwo">
-          <Cardtwo
-            imglinktwo={Bone}
-            heading="Comarcial"
-            watch="/comarcialimages"
+        <Cardone
+            imglink={Wlone}
+            something="on time delivery"
           />
-          <Cardtwo
-            imglinktwo={Btwo}
-            heading="residencial"
-            watch="/recidancialimages"
+          <Cardone
+            imglink={Wltwo}
+            something="customar satisfaction"
           />
-          <Cardtwo
-            imglinktwo={Bthree}
-            heading="news letter"
-            watch=""
-          />
-          <Cardtwo
-            imglinktwo={Bthree}
-            heading="news letter"
-            watch=""
+          <Cardone
+            imglink={Wlthree}
+            something="best designs"
           />
         </div>
         <div data-aos="fade-left" className="backimgtwo"></div>
