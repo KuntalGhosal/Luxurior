@@ -20,6 +20,7 @@ import Office from './components/Office';
 import Alltimefooter from './components/Alltimefooter';
 import Designgallary from "./components/Designgallary";
 import Ourservices from  "./components/Ourservices"
+import Designerbathroom from "./components/Designerbathroom.jsx"
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
                 <Route path="/office" component={Office}/>
                 <Route path="/designgallary" component={Designgallary}/>
                 <Route path="/ourservices" component={Ourservices}/>
+                <Route path="/designerbathroom" component={Designerbathroom}/>
             </Switch>
             <Footer/>
         </div>

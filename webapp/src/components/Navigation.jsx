@@ -26,6 +26,7 @@ export default function Navigation() {
       <Nav.Link><Link id="navletters" to="/about">About Us</Link></Nav.Link>
       <NavDropdown title="Catagory" id="basic-nav-dropdown" id="navletters" >
       <NavDropdown.Item><Link id="navletters" to="/recidancialimages">Recidancial</Link></NavDropdown.Item>
+      <NavDropdown.Divider />
         <NavDropdown.Item> <Link id="navletters" to="/comarcialimages"> Comarcial </Link> </NavDropdown.Item>
       </NavDropdown>
       <Nav.Link><Link id="navletters" to="/whyluxriror">Why Luxurior?</Link></Nav.Link>
@@ -34,6 +35,7 @@ export default function Navigation() {
       <Nav.Link id="navletters" href="">Contact Us</Nav.Link>
       <NavDropdown title="get free estimate" id="nav-dropdown" >
         <NavDropdown.Item onClick={Residencial}style={ rssStyle ? { backgroundColor:"brown",color:'white'} : {backgroundColor:'#ffffe6',color:'black'} }> <Link id="navletters" to="/recidancialestimate" >Recidancial</Link></NavDropdown.Item>
+        <NavDropdown.Divider />
         <NavDropdown.Item  onClick={Comarcial} style={ comStyle ? { backgroundColor:"brown",color:'white'} : {backgroundColor:'white',color:'gray'} }  > <Link id="navletters" to="/comarcialestimate"> Comarcial</Link></NavDropdown.Item>
       </NavDropdown>
       {/* </div> */}

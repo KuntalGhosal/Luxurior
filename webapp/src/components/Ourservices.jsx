@@ -20,7 +20,7 @@ function Ourservices() {
     return (
         <>
         <h5 id="allourservices" className="tranding">End-to-end intirior solutation</h5>
-        <div className="allcard">
+        <div className="allcardtwo">
             <Cardone
             imglink={Oone}
             something="Moveable Furniture"
@@ -50,7 +50,7 @@ function Ourservices() {
             something="Study tables"
             />
         </div>
-        <div className="allcard">
+        <div className="allcardtwo">
             <Cardone
             imglink={Oeight}
             something="sofa"
