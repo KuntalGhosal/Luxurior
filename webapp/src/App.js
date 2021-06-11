@@ -21,6 +21,8 @@ import Alltimefooter from './components/Alltimefooter';
 import Designgallary from "./components/Designgallary";
 import Ourservices from  "./components/Ourservices"
 import Designerbathroom from "./components/Designerbathroom.jsx"
+import Designerbedroom from "./components/Designerbedroom.jsx"
+import Modularkitchen from "./components/Modularkitchen.jsx"
 
 function App() {
   return (
@@ -47,6 +49,8 @@ function App() {
                 <Route path="/designgallary" component={Designgallary}/>
                 <Route path="/ourservices" component={Ourservices}/>
                 <Route path="/designerbathroom" component={Designerbathroom}/>
+                <Route path="/designerbedroom" component={Designerbedroom}/>
+                <Route path="/modularkitchen" component={Modularkitchen}/>
             </Switch>
             <Footer/>
         </div>

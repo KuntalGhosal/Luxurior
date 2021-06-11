@@ -12,16 +12,19 @@ import Btwo from "../assets/aaina-sharma-J8iOJZEPFQ4-unsplash.jpg";
 import Bthree from "../assets/connor-wang-MNz7IGrcEl0-unsplash.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Aone from "../assets/pexels-jonathan-borba-3285193.jpg"
-import Atwo from "../assets/pexels-pew-nguyen-244134.jpg"
-import Athree from "../assets/residential.jpg45.jpg"
-import Afour from "../assets/residential.jpg25.jpg"
+import ASone from "../assets/pexels-max-vakhtbovych-6782468.jpg"
+import AStwo from "../assets/pexels-max-vakhtbovych-6782578.jpg"
+import ASthree from "../assets/pexels-max-vakhtbovych-6890413.jpg"
+import ASfour from "../assets/pexels-nastyasensei-376531.jpg"
 import Cone from "../assets/naomi-hebert-MP0bgaS_d1c-unsplash (1).jpg"
 import Ctwo from "../assets/residential.jpg6.jpg"
 import Cthree from "../assets/residential.jpg52.jpg"
 import Cfour from "../assets/residential.jpg54.jpg"
 import Done from "../assets/residential.jpg46.jpg"
-import Designerbathroom from "../components/Designerbathroom"
+import Dtwo from "../assets/pexels-max-vakhtbovych-6283974.jpg"
+import Dthree from "../assets/pexels-max-vakhtbovych-6296924.jpg"
+import Dfour from "../assets/pexels-max-vakhtbovych-6438752.jpg"
+// import Designerbathroom from "../components/Designerbathroom"
 
 export default function Header() {
   useEffect(() => {
@@ -73,17 +76,17 @@ export default function Header() {
             watch="/Designerbathroom"
           />
           <Cardtwo
-            imglinktwo={Atwo}
+            imglinktwo={Dtwo}
             // heading="residencial"
             watch="/Designerbathroom"
           />
           <Cardtwo
-            imglinktwo={Athree}
+            imglinktwo={Dthree}
             // heading="news letter"
             watch="/Designerbathroom"
           />
           <Cardtwo
-            imglinktwo={Afour}
+            imglinktwo={Dfour}
             // heading="news letter"
             watch="/Designerbathroom"
           />
@@ -93,45 +96,45 @@ export default function Header() {
           <Cardtwo
             imglinktwo={Cone}
             // heading="Comarcial"
-            // watch="/comarcialimages"
+            watch="/modularkitchen"
           />
           <Cardtwo
             imglinktwo={Ctwo}
             // heading="residencial"
-            // watch="/recidancialimages"
+            watch="/modularkitchen"
           />
           <Cardtwo
             imglinktwo={Cthree}
             // heading="news letter"
-            // watch=""
+            watch="/modularkitchen"
           />
           <Cardtwo
             imglinktwo={Cfour}
             // heading="news letter"
-            // watch=""
+            watch="/modularkitchen"
           />
         </div>
         <h5 className="tranding">Designer Bedroom</h5>
         <div data-aos="fade-up" className="allcardtwo">
           <Cardtwo
-            imglinktwo={Cone}
+            imglinktwo={ASone}
             // heading="Comarcial"
-            // watch="/comarcialimages"
+            watch="/Designerbedroom"
           />
           <Cardtwo
-            imglinktwo={Ctwo}
+            imglinktwo={AStwo}
             // heading="residencial"
-            // watch="/recidancialimages"
+            watch="/Designerbedroom"
           />
           <Cardtwo
-            imglinktwo={Cthree}
+            imglinktwo={ASthree}
             // heading="news letter"
-            // watch=""
+            watch="/Designerbedroom"
           />
           <Cardtwo
-            imglinktwo={Cfour}
+            imglinktwo={ASfour}
             // heading="news letter"
-            // watch=""
+            watch="/Designerbedroom"
           />
         </div>
         <div data-aos="fade-right" className="backimgone"></div>
