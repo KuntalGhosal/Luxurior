@@ -11,6 +11,7 @@
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
   text-decoration: none;
+  text-align: center;
 }
 .somethingcardone{
   font-weight: bold;
@@ -526,4 +527,48 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+.total-login-from{
+  margin-top: 8.5rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  /* height: 500px; */
+  border: 3px solid brown;
+  border-radius: 10px;
+}
+.total-login-from h2{
+  color: brown;
+  text-align: center;
+}
+.inputbox p{
+  color: brown;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 5px;
+}
+input{
+  width: 270px;
+  height: 35px;
+  border-radius: 10px;
+  color: #042930;
+  border: 2px solid brown;
+}
+.button{
+  margin: 10px;
+}
+.button button{
+  width: 90px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid brown;
+  background-color: brown;
+  color: white;
+  font-size: 16px;
+}
+.dont-have-account{
+  text-align: center;
+  margin: 10px;
 }

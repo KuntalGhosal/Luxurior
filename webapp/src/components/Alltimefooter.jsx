@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
+
 
 export default function Alltimefooter() {
     useEffect(() => {
@@ -8,7 +10,7 @@ export default function Alltimefooter() {
       }, []);
     return (
         <div className="fixedbutton">
-            <button data-aos="fade-flix"> <span> Book free online Consultation </span></button>
+           <Link to="/login"> <button data-aos="fade-flix"> <span> Book free online Consultation </span></button></Link>
        </div>
         
     )
