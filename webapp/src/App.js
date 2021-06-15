@@ -23,8 +23,7 @@ import Ourservices from  "./components/Ourservices"
 import Designerbathroom from "./components/Designerbathroom.jsx"
 import Designerbedroom from "./components/Designerbedroom.jsx"
 import Modularkitchen from "./components/Modularkitchen.jsx"
-import Login from "./components/Login"
-import Signup from './components/Signup';
+import Contactus from './components/Contactus';
 
 function App() {
   return (
@@ -53,8 +52,7 @@ function App() {
                 <Route path="/designerbathroom" component={Designerbathroom}/>
                 <Route path="/designerbedroom" component={Designerbedroom}/>
                 <Route path="/modularkitchen" component={Modularkitchen}/>
-                <Route path="/login" component={Login}/>
-                <Route path="/signup" component={Signup}/>
+                <Route path="/contactus" component={Contactus}/>
             </Switch>
             <Footer/>
         </div>

@@ -1,14 +1,19 @@
-import React from 'react';
+import React  from 'react';
  import { Formik } from 'formik';
- import { Link } from "react-router-dom";
 
- 
- const Login = () => (
-   <>
+
+
+ const Login = () => {
+
+  
+
+   return(
+  
+  <>
    <div className="total-login-from">
      <h2>Login to Luxurior</h2>
      <Formik
-       initialValues={{ email: '', password: '' }}
+       initialValues={{ email: '', password: '',phonenumber:'' }}
        validate={values => {
          const errors = {};
          if (!values.email) {
@@ -35,7 +40,6 @@ import React from 'react';
          handleBlur,
          handleSubmit,
          isSubmitting,
-         /* and other goodies */
        }) => (
          <form onSubmit={handleSubmit}>
            <div className="inputbox">
@@ -49,6 +53,18 @@ import React from 'react';
              placeholder="enter your email address"
            />
            {errors.email && touched.email && errors.email}
+           <p className="whyp">OR</p>
+           <div className="inputbox">
+             <p>enter your mobile number</p>
+           <input
+             type="number"
+             name="phonenumber"
+             onChange={handleChange}
+             onBlur={handleBlur}
+             value={values.phonenumber}
+             placeholder="enter your mobile number"
+           />
+           </div>
            </div>
            <div className="inputbox">
              <p>enter your password</p>
@@ -71,8 +87,9 @@ import React from 'react';
        )}
      </Formik>
    </div>
-   <div className="dont-have-account"><p>you don't have an account ? <Link to="/signup">Signup</Link></p> </div>
-   </>
- );
+  
+  </>
+   )
+ };
  
  export default Login;

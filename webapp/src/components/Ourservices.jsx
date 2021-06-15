@@ -19,7 +19,10 @@ import Ofourteen from "../assets/0001-2085787047_20210530_030756_0000.png"
 function Ourservices() {
     return (
         <>
-        <h5 id="allourservices" className="tranding">End-to-end intirior solutation</h5>
+        
+        <p className="whyh1" id="allourservices" >Services</p>
+        <p className="whyp">Luxurior is a full service interior design firm that offers design and decorating solutions to residential and small scale commercial projects. We offer interior design and decorating services in Assam ,west bengal, Karnataka.</p>
+        <h5 className="endsolutation">End-to-end intirior solutation</h5>
         <div className="allcardtwo">
             <Cardone
             imglink={Oone}
@@ -80,6 +83,24 @@ function Ourservices() {
             something="short table"
             />
         </div>
+        <p className="whyh1">Our approach is collaborative as we:</p>
+        <p className="whyp">Identify your lifestyle needs</p>
+        <p className="whyp">|</p>
+        <p className="whyp">Understand your aesthetic</p>
+        <p className="whyp">|</p>
+        <p className="whyp">Assess the possibilities of your space</p>
+        <p className="whyh1">We Offer:</p>
+        <p className="whyp">Comprehensive and bilingual services</p>
+        <p className="whyp">Furniture layouts using new and existing furniture
+Space planning and purchasing
+Floor plans, elevations, details, and renderings
+Custom furniture, cabinet, and millwork design
+Kitchen and bathroom design
+Preconstruction and project management services – (We assist you in communicating interior elements to architects and contractors prior to and during the construction process) 
+Design services for clients with special needs
+Environment Friendly
+We can also help you go green by identifying sustainable environmental products.</p>
+<div className="backimgone"></div>
         </>
     )
 }

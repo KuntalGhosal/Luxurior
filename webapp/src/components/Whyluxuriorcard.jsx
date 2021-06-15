@@ -6,7 +6,7 @@ export default function Whyluxuriorcard(props) {
              <img style={{width:"100%"}} src={props.image} alt="image" />
              {/* <img className="whyimageone" style={{width:"100%"}} src={props.imageone} alt="image" /> */}
 
-             <div>
+             <div className="whyfonts">
                  <h1 className="whyh1">{props.h1}</h1>
                  <p className="whyp">{props.p}</p>
                  <p className="whyp">{props.listone}</p>

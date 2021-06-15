@@ -28,7 +28,7 @@ import Dfour from "../assets/pexels-max-vakhtbovych-6438752.jpg"
 
 export default function Header() {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 500 });
   }, []);
   return (
     <>
@@ -65,7 +65,7 @@ export default function Header() {
         <div data-aos="fade-up" className="afterbackimg">
           <p className="a">Complete interior design service</p>
           <p className="b">Luxurior is a luxury interior design studio that creates timeless interiors individually tailored to your lifestyle, personal tastes and the unique character of your home. From the initial consultation to visual concepts and completion our highly skilled design team, led by Founder and Creative Director, meticulously plan and design every detail to finesse your home to perfection.
-          As a boutique interior design studio based in Bangalore and Kolkata, exemplary service and the personal involvement of hand selected team set new standards of luxury and refinement. Whether you are looking for a Residential or Comarcial, customised lighting or a complete home renovation, trust Luxurior to exceed every expectation.
+          As a boutique interior design studio based in Bangalore , Guwahati and Kolkata, exemplary service and the personal involvement of hand selected team set new standards of luxury and refinement. Whether you are looking for a Residential or Commarcial, customised lighting or a complete home renovation, trust Luxurior to exceed every expectation.
        Luxurior is a long established independent interior design and architectural design company. We have earned a first-class reputation for service, precision interior design and project management expertise that works around the lifestyle demands of you, our client.</p>
         </div>
         <h5 className="tranding">Designer bathrooms</h5>
@@ -140,10 +140,10 @@ export default function Header() {
         <div data-aos="fade-right" className="backimgone"></div>
         <div data-aos="fade-down" className="afterbackimg">
           <p className="a">Bespoke Joinery</p>
-          <p className="b">We offer and include high end bespoke joinery designed by Luxurior to meet our clients requirements and needs. This includes smaller pieces such as coffee tables, side boards and radiator covers to larger pieces such as wardrobes, walk in wardrobes, bookcases, media units, dining tables, bathrooms and complete kitchens... tailored and made to fit the space perfectly.we make you Residential space comfort and elegant.</p>
+          <p className="b">We offer and include high end bespoke joinery designed by Luxurior to meet our clients requirements and needs. This includes smaller pieces such as coffee tables, side boards and radiator covers to larger pieces such as wardrobes, walk in wardrobes, bookcases, media units, dining tables, bathrooms and complete kitchens... tailored and made to fit the space perfectly.we make your Residential space comfort and elegant.</p>
         </div>
-        <div data-aos="fade-down" className="aftbackimgtwo">Why Choose Us?</div>
-        <div data-aos="fade-up" className="allcardtwo">
+        {/* <div data-aos="fade-down" className="aftbackimgtwo">Why Choose Us?</div> */}
+        {/* <div data-aos="fade-up" className="allcardtwo">
         <Cardone
             imglink={Wlone}
             something="on time delivery"
@@ -156,7 +156,7 @@ export default function Header() {
             imglink={Wlthree}
             something="best designs"
           />
-        </div>
+        </div> */}
         <div data-aos="fade-left" className="backimgtwo"></div>
         <div data-aos="fade-down" className="aftcard">
           Designs by Luxurior
@@ -164,17 +164,17 @@ export default function Header() {
         <div data-aos="fade-up" className="allcardtwo">
           <Cardtwo
             imglinktwo={Bone}
-            heading="Comarcial"
+            heading="Commercial"
             watch="/comarcialimages"
           />
           <Cardtwo
             imglinktwo={Btwo}
-            heading="residencial"
+            heading="Residential"
             watch="/recidancialimages"
           />
           <Cardtwo
             imglinktwo={Bthree}
-            heading="news letter"
+            heading="Newsletter"
             watch=""
           />
         </div>

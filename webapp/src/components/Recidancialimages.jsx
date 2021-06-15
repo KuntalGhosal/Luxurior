@@ -10,7 +10,7 @@ export default function Recidancialimages() {
     return (
         <div>
             <div className="resimgall">
-            <h1>Residancial Space designs</h1>
+            <h1>Residential Space designs</h1>
                 <h5>Best home designs for your needs</h5>
                 </div>
             <div className="allcardtwo">

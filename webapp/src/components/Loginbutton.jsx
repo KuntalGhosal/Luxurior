@@ -5,7 +5,7 @@ import Login from './Login';
 import Signupbutton from './Signupbutton';
 
 
-export default function Alltimefooter() {
+export default function Loginbutton() {
     const [show, setShow] = useState(false);
     
   
@@ -15,8 +15,8 @@ export default function Alltimefooter() {
     return (
       <>
       
-        <Button variant="primary" onClick={handleShow} className="fixedbutton">
-        Book free online Consultation 
+        <Button variant="primary" onClick={handleShow} >
+        Login
         </Button>
   
         <Modal show={show} onHide={handleClose}>

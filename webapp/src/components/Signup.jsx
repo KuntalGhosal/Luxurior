@@ -1,10 +1,5 @@
 import React from 'react';
 import { useFormik } from 'formik';
-import { Link } from "react-router-dom";
-
-
-// A custom validation function. This must return an object
-// which keys are symmetrical to our values/initialValues
 const validate = values => {
   const errors = {};
   if (!values.firstName) {
@@ -25,18 +20,22 @@ const validate = values => {
     errors.email = 'Invalid email address';
   }
 
+  if (values.phone <10 ) {
+    errors.phonenumber = 'invalid number';
+  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.phonenumber)) {
+    errors.email = 'Invalid number';
+  }
+
   return errors;
 };
 
 const Signup = () => {
-  // Pass the useFormik() hook initial form values, a validate function that will be called when
-  // form values change or fields are blurred, and a submit function that will
-  // be called when the form is submitted
   const formik = useFormik({
     initialValues: {
       firstName: '',
       lastName: '',
       email: '',
+      phonenumber:'',
     },
     validate,
     onSubmit: values => {
@@ -67,6 +66,16 @@ const Signup = () => {
         value={formik.values.lastName}
       />
       {formik.errors.lastName ? <div>{formik.errors.lastName}</div> : null}
+      
+      <label htmlFor="phonenumber">mobile number</label>
+      <input
+        id="phonenumber"
+        name="phonenumber"
+        type="text"
+        onChange={formik.handleChange}
+        value={formik.values.phonenumber}
+      />
+      {formik.errors.phonenumber ? <div>{formik.errors.phonenumber}</div> : null}
 
       <label htmlFor="email">Email Address</label>
       <input
@@ -77,12 +86,13 @@ const Signup = () => {
         value={formik.values.email}
       />
       {formik.errors.email ? <div>{formik.errors.email}</div> : null}
+      
         <div className="button">
       <button type="submit">Submit</button>
       </div>
     </form>
     </div>
-    <div className="dont-have-account">you have an account?<Link to="/login">Login</Link></div>
+    
     </>
   );
 };

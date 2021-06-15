@@ -20,6 +20,14 @@
   margin-left: 3rem;
   color: brown;
   font-weight: bold;
+  font-family: 'Merriweather', serif;
+
+}
+.endsolutation{
+  text-align: center;
+  color: brown;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
 }
 .main-container{
   width: 100%;
@@ -76,7 +84,8 @@
   color: brown;
   font-size: 24px;
   font-weight: 700;
-  font-family: 'Kanit', sans-serif;
+  /* font-family: 'Kanit', sans-serif; */
+  font-family: 'Merriweather', serif;
 }
 .afterbackimg .b{
   color: black;
@@ -107,7 +116,9 @@
     background-position:center ;
     background-size: cover;
   }
-
+  .fixedbutton{
+    margin-left: 10%;
+  }
   .cardone img{
     width: 80%;
   }
@@ -147,7 +158,20 @@
   .cardone img{
     width: 60%;
   }
+  /* .fixedbutton{
+    margin-top: 15vh;
+    margin-left: 5rem;
+  } */
 }
+ @media (max-width: 325px){
+  .fixedbutton{
+    margin-top: 15vh;
+    /* margin-left: 2%; */
+    margin-left: 5% !important;
+    width: 180px;
+    font-size: 12px;
+  }  
+  }  
 @media (max-width: 768px){
   .backimgone{
     min-width: 100%;
@@ -155,22 +179,11 @@
     background-position:center ;
     background-size: cover;
   }
-  .fixedbutton button {
-    /* border-radius: 4px; */
-    /* background-color:brown; */
-    /* border: none; */
-    /* color: #fff; */
-    /* text-align: center; */
-    font-size: 14px;
-    padding: 10px;
-    width: 100px;
-    transition: all 0.5s;
-    cursor: pointer;
-    /* margin: 36px; */
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-  }
   .fixedbutton{
     margin-top:15vh;
+    margin-left: 15% !important;
+    width: 180px;
+    font-size: 14px;
   }
   .cardone img{
     width: 70%;
@@ -207,7 +220,7 @@
   }
 }
 .aftbackimgtwo{
-  color: brown;
+  color: #0e2024;
   background-color: #d4d3d3;
   font-size: 24px;
   text-align: center;  
@@ -215,6 +228,7 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   overflow: hidden;
+  font-family: 'Merriweather', serif;
 }
 .cardone{
   width: 100px;
@@ -237,9 +251,10 @@
   text-align: center;
   background-color: #fff;
   font-family:'Kanit', sans-serif ;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  font-family: 'Merriweather', serif;
 }
 .cardtwo{
   width: 300px;
@@ -261,11 +276,34 @@
   height: 100%;
   border-radius: 5px;
 }
+.footerdetails{
+  color: white;
+  background-color: #0e2024;
+}
+.whypone{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  /* background-color: #0e2024; */
+  font-family: 'Merriweather', serif;
+  margin-top: 2%;
+}
+.allptwo{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  /* margin-bottom: 3%; */
+  overflow: hidden;
+  background-color: #042930;
+}
 .allcardtwo{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
   overflow: hidden;
 }
 .cardtwo h4{
@@ -321,7 +359,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .followpage p{
   font-weight: 500;
@@ -334,7 +372,8 @@
   font-size: 28px;
   text-align: center;
   font-weight: 700;
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Merriweather', serif;
 }
 .Gandu{
   color: black;
@@ -434,10 +473,14 @@
 .carousalallA{
   margin-top: .5rem;
 }
+.whyfonts{
+  font-family: 'Merriweather', serif;
+}
 .resimgall{
   color: brown;
   text-align: center;
   margin-top: 6.8rem;
+  font-family: 'Merriweather', serif;
 }
 .resimgall h1{
   padding: 10px;
@@ -452,67 +495,43 @@
   margin-right: auto;
 }
 .fixedbutton{
-  text-align: center;
+  /* margin-left: 32rem; */
+  /* display: flex;  */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-left: 40%;
   position: fixed;
   margin-top:75vh;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
   z-index: 100;
-}
-.fixedbutton button {
+  padding: 15px;
+  width: 270px;
   border-radius: 4px;
   background-color:brown;
   border: none;
   color: #fff;
   text-align: center;
   font-size: 18px;
-  padding: 15px;
-  width: 270px;
   transition: all 0.5s;
   cursor: pointer;
-  /* margin: 36px; */
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-}
-
-.fixedbutton button{
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.fixedbutton button:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;  
-  top: 14px;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.fixedbutton button:hover{
-  padding-right: 24px;
-  padding-left:8px;
-}
-
-.fixedbutton button:hover:after {
-  opacity: 1;
-  right: 10px;
 }
 .dsignglry{
   overflow: hidden;
   margin-top: 6rem;
 }
 .whyh1{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
-  color: #868686;
+  color: #0e2930;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 .whyp{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
-  color: #868686;
+  color: #0e2930;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 .whyall{
   margin-left: auto;
@@ -529,32 +548,36 @@
   margin-right: auto;
 }
 .total-login-from{
-  margin-top: 8.5rem;
+  margin-top: 2rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
   /* height: 500px; */
-  border: 3px solid brown;
+  border: 3px solid #0e2024;
   border-radius: 10px;
 }
 .total-login-from h2{
-  color: brown;
+  color: #0e2024;
   text-align: center;
+  font-family: 'Merriweather', serif;
+
 }
 .inputbox p{
-  color: brown;
+  color: #0e2024;
   font-size: 14px;
   text-align: left;
   margin-left: 2rem;
   margin-top: 5px;
+  font-family: 'Merriweather', serif;
+
 }
 input{
   width: 270px;
   height: 35px;
   border-radius: 10px;
   color: #042930;
-  border: 2px solid brown;
+  border: 2px solid #0e2024;
 }
 .button{
   margin: 10px;
@@ -563,12 +586,20 @@ input{
   width: 90px;
   padding: 5px;
   border-radius: 15px;
-  border: 1px solid brown;
-  background-color: brown;
+  border: 1px solid #0e2024;
+  background-color: #0e2024;
   color: white;
   font-size: 16px;
 }
 .dont-have-account{
   text-align: center;
   margin: 10px;
+}
+.contactp{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0e2930;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  margin-left: 5%;
 }
