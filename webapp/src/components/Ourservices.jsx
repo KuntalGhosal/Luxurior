@@ -21,7 +21,7 @@ function Ourservices() {
         <>
         
         <p className="whyh1" id="allourservices" >Services</p>
-        <p className="whyp">Luxurior is a full service interior design firm that offers design and decorating solutions to residential and small scale commercial projects. We offer interior design and decorating services in Assam ,west bengal, Karnataka.</p>
+        <p className="whyp">Luxurior is a full service interior design firm that offers design and decorating solutions to residential and small scale commercial projects. We offer interior design and decorating services in Assam ,West Bengal, Karnataka.</p>
         <h5 className="endsolutation">End-to-end intirior solutation</h5>
         <div className="allcardtwo">
             <Cardone

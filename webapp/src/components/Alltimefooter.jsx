@@ -15,7 +15,7 @@ export default function Alltimefooter() {
     return (
       <>
       
-        <Button variant="primary" onClick={handleShow} className="fixedbutton">
+        <Button variant="secondory" onClick={handleShow} className="fixedbutton">
         Book free online Consultation 
         </Button>
   

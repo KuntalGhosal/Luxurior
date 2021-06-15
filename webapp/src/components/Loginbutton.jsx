@@ -15,7 +15,7 @@ export default function Loginbutton() {
     return (
       <>
       
-        <Button variant="primary" onClick={handleShow} >
+        <Button variant="secondory" onClick={handleShow} className="sidebutton" >
         Login
         </Button>
   

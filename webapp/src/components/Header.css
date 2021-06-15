@@ -1,5 +1,6 @@
 #totalnav{
   background-color:#042930;
+  /* display: inline-block; */
   /* height: 5.2rem; */  
 }
 /* .navelements{
@@ -12,6 +13,8 @@
   font-size: 15px;
   text-decoration: none;
   text-align: center;
+  display:inline-block;
+  margin-top: 6px;
 }
 .somethingcardone{
   font-weight: bold;
@@ -288,6 +291,12 @@
   /* background-color: #0e2024; */
   font-family: 'Merriweather', serif;
   margin-top: 2%;
+}
+.sidebutton{
+  background-color: brown;
+  margin-left: 5px;
+  font-family: 'Merriweather', serif;
+  color: white;
 }
 .allptwo{
   display: flex;

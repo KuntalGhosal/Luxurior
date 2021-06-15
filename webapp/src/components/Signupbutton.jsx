@@ -11,8 +11,8 @@ export default function Signupbutton() {
   
     return (
       <>
-        <Button variant="primary" onClick={handleShow} >
-            signup
+        <Button variant="secondory" onClick={handleShow} className="sidebutton">
+            Signup
         </Button>
   
         <Modal show={show} onHide={handleClose}>
