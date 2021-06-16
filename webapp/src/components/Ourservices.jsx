@@ -25,62 +25,62 @@ function Ourservices() {
         <h5 className="endsolutation">End-to-end intirior solutation</h5>
         <div className="allcardtwo">
             <Cardone
-            imglink={Oone}
-            something="Moveable Furniture"
-            />
-            <Cardone
-            imglink={Otwo}
-            something="False ceiling"
-            />
-            <Cardone
-            imglink={Othree}
-            something="Light"
-            />
-            <Cardone
-            imglink={Ofour}
-            something="tv unit"
-            />
-            <Cardone
-            imglink={Ofive}
-            something="wallpaint"
-            />
-            <Cardone
-            imglink={Osix}
-            something="Bathroom"
-            />
-            <Cardone
-            imglink={Oseven}
-            something="Study tables"
-            />
-        </div>
-        <div className="allcardtwo">
-            <Cardone
-            imglink={Oeight}
-            something="sofa"
-            />
-            <Cardone
-            imglink={Onine}
-            something="Furniture"
-            />
-            <Cardone
-            imglink={Oten}
-            something="Walpaper"
-            />
-            <Cardone
             imglink={Oeleven}
             something="Modular Kitchen"
             />
             <Cardone
             imglink={Otwoelve}
-            something="Storage and wardrobe"
+            something="Storage and Wardrobe"
+            />
+            <Cardone
+            imglink={Onine}
+            something="Crockery Units"
+            />
+            <Cardone
+            imglink={Oseven}
+            something="Space Saving Furniture"
             />
             <Cardone
             imglink={Othirteen}
-            something="Desktop Section"
+            something="Tv Units"
             />
             <Cardone
             imglink={Ofourteen}
-            something="short table"
+            something="Study Tables"
+            />
+            <Cardone
+            imglink={Otwo}
+            something="False Ceiling"
+            />
+        </div>
+        <div className="allcardtwo">
+            <Cardone
+            imglink={Oeight}
+            something="Light"
+            />
+            <Cardone
+            imglink={Onine}
+            something="Walpaper"
+            />
+            <Cardone
+            imglink={Oten}
+            something="Wall Paint"
+            />
+            <Cardone
+            imglink={Oeleven}
+            something="Bathroom"
+            />
+            <Cardone
+            imglink={Otwoelve}
+            something="Pooja Unit"
+            />
+            <Cardone
+            imglink={Othirteen}
+            something="Movable Furniture"
+            />
+            <Cardone
+            imglink={Ofourteen}
+            something="Foyer Designs"
             />
         </div>
         <p className="whyh1">Our approach is collaborative as we:</p>
