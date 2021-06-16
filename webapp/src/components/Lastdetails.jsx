@@ -5,10 +5,10 @@ function Lastdetails(){
         <div className="lastone">
             <div className="address">
                 <ul>
-                    <li>Luxurior</li>
+                    {/* <li>Luxurior</li> */}
                     <li>Bangalore</li>
                     <li>Kolkata</li>
-                    <li>India</li>
+                    <li>Assam</li>
                 </ul>
             </div>
             <div className="emage">

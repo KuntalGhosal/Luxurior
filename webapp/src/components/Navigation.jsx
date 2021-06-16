@@ -28,11 +28,11 @@ export default function Navigation() {
     <Nav className="ml-auto">
       {/* <div className="navelements"> */}
       <Nav.Link><Link id="navletters" to="/about">About Us</Link></Nav.Link>
-      <NavDropdown title="Catagory" id="basic-nav-dropdown" id="navletters" >
+      <NavDropdown title="Category" id="basic-nav-dropdown" id="navletters" >
       {/* <Link id="navletters" to="/recidancialimages">Recidancial</Link> */}
-      <NavDropdown.Item as={Link} to={"/recidancialimages"} >Recidential</NavDropdown.Item>
+      <NavDropdown.Item as={Link} to={"/recidancialimages"} >Residential</NavDropdown.Item>
       <NavDropdown.Divider />
-        <NavDropdown.Item as={Link} to={"/comarcialimages"} >Commarcial</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to={"/comarcialimages"} >Commercial</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link><Link id="navletters" to="/whyluxriror">Why Luxurior?</Link></Nav.Link>
       <Nav.Link><Link id="navletters" to="/designgallary">Design Gallary</Link></Nav.Link>

@@ -4,6 +4,8 @@ import Lastdetails from "./Lastdetails";
 import Followus from './Followus';
 import "aos/dist/aos.css";
 import Footerdetails from './Footerdetails';
+import Bottomfooter from './Bottomfooter';
+
 
 export default function Footer() {
        
@@ -12,6 +14,7 @@ export default function Footer() {
       <Footerdetails/>
       <Followus />
       <Lastdetails />
+      <Bottomfooter/>
     </>
   );
 }

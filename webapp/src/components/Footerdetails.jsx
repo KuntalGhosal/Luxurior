@@ -7,8 +7,8 @@ function Footerdetails() {
             
                 
                     <p className="whypone"><Link id="navletters" to="/about">About Us</Link></p>
-                    <p className="whypone"><Link id="navletters" to="/recidancialimages">Recidential</Link></p>
-                    <p className="whypone"><Link id="navletters" to="/comarcialimages">Comarcial</Link></p>
+                    <p className="whypone"><Link id="navletters" to="/recidancialimages">Residential</Link></p>
+                    <p className="whypone"><Link id="navletters" to="/comarcialimages">Commercial</Link></p>
                     <p className="whypone"><Link id="navletters" to="/designgallary">Design Gallary</Link></p>
                     <p className="whypone"><Link id="navletters" to="/whyluxriror">Why Luxurior?</Link></p>
                     <p className="whypone"><Link id="navletters" to="/ourservices">Our services</Link></p>

@@ -45,7 +45,7 @@ export default function Header() {
           />
           <Cardone
             imglink={Wltwo}
-            something="customar satisfaction"
+            something="customer satisfaction"
           />
           <Cardone
             imglink={Wlthree}

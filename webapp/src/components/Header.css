@@ -375,6 +375,19 @@
   color: white;
   font-size: 22px;
 }
+.Followpage{
+  background-color:#042930;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  /* margin-top: 30px; */
+}
+.Followpage p{
+  font-weight: 500;
+  color: white;
+  font-size: 14px;
+}
+
 .about{
   color: brown;
   margin-top: 6.8rem;

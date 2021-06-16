@@ -18,7 +18,7 @@ export default function About() {
             <div data-aos="fade-up" className="aftergandu">
             </div>
             <div data-aos="fade-flip" className="Gandu">
-                "Moreover we are passionate about interior design. Recognising that every client, every home and every room is unique, and that location influences certain aspects of the design, every project is approached as a blank canvas with renewed passion, enthusiasm and excitement. Trust in our expertise has seen Luxrior transform the interiors of listed buildings, country estates, hotels, penthouses and luxurY
+                "Moreover we are passionate about interior design. Recognising that every client, every home and every room is unique, and that location influences certain aspects of the design, every project is approached as a blank canvas with renewed passion, enthusiasm and excitement. Trust in our expertise has seen Luxrior transform the interiors of listed buildings, country estates, hotels, penthouses and luxury
                 apartments and many high-end commercial properties."
             </div>
             <div data-aos="fade-up" className="afterganduone">

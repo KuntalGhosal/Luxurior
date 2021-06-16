@@ -24,6 +24,7 @@ import Designerbathroom from "./components/Designerbathroom.jsx"
 import Designerbedroom from "./components/Designerbedroom.jsx"
 import Modularkitchen from "./components/Modularkitchen.jsx"
 import Contactus from './components/Contactus';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <div>
             <Navigation/>
             <Alltimefooter/>
+            <ScrollToTop/>
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/about" component={About}/>

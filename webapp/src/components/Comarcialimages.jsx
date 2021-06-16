@@ -9,8 +9,8 @@ export default function Comarcialimages() {
     return (
         <div>
              <div className="resimgall">
-            <h1>Commarcial Space designs</h1>
-                <h5>Best Commarcial designs for your needs</h5>
+            <h1>Commercial Space designs</h1>
+                <h5>Best Commercial designs for your needs</h5>
                 </div>
                 <div className="allcardtwo">
                      <Cardtwo
