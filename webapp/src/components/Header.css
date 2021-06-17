@@ -1,51 +1,84 @@
 #totalnav{
-  background-color: rgb(255, 220, 214);
+  background-color:#042930;
+  /* display: inline-block; */
+  /* height: 5.2rem; */  
 }
+/* .navelements{
+  display: inline-block;
+  display: flex;
+} */
 #navletters{
   color: #868686;
   font-family: 'Work Sans', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  display:inline-block;
+  margin-top: 6px;
+}
+.somethingcardone{
+  font-weight: bold;
+}
+.tranding{
+  margin-left: 3rem;
+  color: brown;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+
+}
+.endsolutation{
+  text-align: center;
+  color: brown;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+.main-container{
+  width: 100%;
+  overflow: hidden;
 }
 #logo img{
   width: 12rem;
   height: 5rem;
 }
 #navletters:hover{
-  color: brown;
+  color: black;
 }
-#buttonnav{
+#nav-dropdown{
   border: 1px solid brown;
   background-color: brown;
   color: #fff;
   font-family: 'Work Sans', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
+  font-weight: 400;
+  text-align: center;
 }
 .backimg{
-  background-image: url("../assets/aaron-huber-G7sE2S4Lab4-unsplash.jpg");
+  background-image: url("../assets/20210519_151847_0000.png");
   /* position: relative; */
   min-width: 100%;
-  min-height: 70vh;
+  min-height: 90vh;
   background-position:center ;
   background-size: cover;
   text-align: center;
+  margin-top: 5rem;
 }
-.backimg p{
-  color: brown;
+/* .backimg p img{
   font-size: 6rem;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Kanit', sans-serif;
-}
-.backimg span{
+  padding-top: 5rem;
+  width: 100px;
+  height: 80px;
+  margin-top: 10rem;
+} */
+/* .backimg span{
   color: brown;
   font-size: 3rem;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Kanit', sans-serif;
-}
+} */
 .afterbackimg{
   margin-left: 5%;
   margin-right: 10%;
@@ -54,7 +87,8 @@
   color: brown;
   font-size: 24px;
   font-weight: 700;
-  font-family: 'Kanit', sans-serif;
+  /* font-family: 'Kanit', sans-serif; */
+  font-family: 'Merriweather', serif;
 }
 .afterbackimg .b{
   color: black;
@@ -62,25 +96,38 @@
   font-family: 'Kanit', sans-serif;
 }
 .backimgone{
-  background-image: url("../assets/nastuh-abootalebi-JdcJn85xD2k-unsplash.jpg");
+  background-image: url("../assets/20210519_151746_0000.png");
   min-width: 100%;
   min-height: 70vh;
   background-position:center ;
   background-size: cover;
+  overflow: hidden;
 }
 .backimgtwo{
-  background-image: url("../assets/naomi-hebert-MP0bgaS_d1c-unsplash.jpg");
+  background-image: url("../assets/residential.jpg56.jpg");
   min-width: 100%;
   min-height: 70vh;
   background-position:center ;
   background-size: cover;
+  overflow: hidden;
 }
+
 @media (max-width: 998px) {
   .backimgone{
     min-width: 100%;
     min-height: 60vh;
     background-position:center ;
     background-size: cover;
+  }
+  .fixedbutton{
+    margin-left: 10%;
+  }
+  .cardone img{
+    width: 80%;
+  }
+  #logo img{
+    width: 10rem;
+    height: 4rem;
   }
   .backimgtwo{
     min-width: 100%;
@@ -100,14 +147,57 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .emage img{
+    width: 8rem;
+    height: 4rem;
+  }
 
 }
+@media (max-width: 281px){
+  .emage img{
+    width: 5rem;
+    height: 2.5rem;
+  }
+  .cardone img{
+    width: 60%;
+  }
+  /* .fixedbutton{
+    margin-top: 15vh;
+    margin-left: 5rem;
+  } */
+}
+ @media (max-width: 325px){
+  .fixedbutton{
+    margin-top: 15vh;
+    /* margin-left: 2%; */
+    margin-left: 5% !important;
+    width: 180px;
+    font-size: 12px;
+  }  
+  }  
 @media (max-width: 768px){
   .backimgone{
     min-width: 100%;
     min-height: 50vh;
     background-position:center ;
     background-size: cover;
+  }
+  .fixedbutton{
+    margin-top:15vh;
+    margin-left: 15% !important;
+    width: 180px;
+    font-size: 14px;
+  }
+  .cardone img{
+    width: 70%;
+  }
+   .backimg{
+    margin-top: 5rem;
+  } 
+  
+  #logo img{
+    width: 10rem;
+    height: 4rem;
   }
   .backimgtwo{
     min-width: 100%;
@@ -127,15 +217,21 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .emage img{
+    width: 6rem;
+    height: 3rem;
+  }
 }
 .aftbackimgtwo{
-  color: rgb(8, 0, 0);
+  color: #0e2024;
   background-color: #d4d3d3;
   font-size: 24px;
   text-align: center;  
   font-weight: 500;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  overflow: hidden;
+  font-family: 'Merriweather', serif;
 }
 .cardone{
   width: 100px;
@@ -151,14 +247,17 @@
   margin-left: auto;
   text-align: center;
   justify-content: space-around;
+  overflow: hidden;
 }
 .aftcard{
-  color: #868686;
+  color: brown;
   text-align: center;
   background-color: #fff;
   font-family:'Kanit', sans-serif ;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: 'Merriweather', serif;
 }
 .cardtwo{
   width: 300px;
@@ -180,11 +279,41 @@
   height: 100%;
   border-radius: 5px;
 }
+.footerdetails{
+  color: white;
+  background-color: #0e2024;
+}
+.whypone{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  /* background-color: #0e2024; */
+  font-family: 'Merriweather', serif;
+  margin-top: 2%;
+}
+.sidebutton{
+  background-color: brown;
+  margin-left: 5px;
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+.allptwo{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  /* margin-bottom: 3%; */
+  overflow: hidden;
+  background-color: #042930;
+}
 .allcardtwo{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  overflow: hidden;
 }
 .cardtwo h4{
   color: brown;
@@ -203,18 +332,18 @@
 .lastone{
   display: flex;
   justify-content: space-around;
-  background-color:rgb(255, 220, 214) ;
+  background-color:#042930;
 }
 .address{
   justify-content: flex-start;
   /* text-decoration: none; */
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 700;
 }
 .address li{
   text-decoration: none;
-  color: brown;
+  color: #fff;
 }
 .emage{
   justify-content:flex-end;
@@ -222,6 +351,9 @@
 .emage img{
   width: 10rem;
   height: 5rem;
+}
+.site{
+  margin-left: 5%;
 }
 .sitelogos {
   display: flex;
@@ -232,14 +364,264 @@
   margin-right: 20px;
 }
 .followpage{
-  background-color:rgb(255, 220, 214) ;
-  /* margin-left: 20%; */
+  background-color:#042930;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* margin-top: 30px; */
 }
 .followpage p{
   font-weight: 500;
-  color: brown;
+  color: white;
   font-size: 22px;
 }
-.site{
-  margin-left: 22%;
+.Followpage{
+  background-color:#042930;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  /* margin-top: 30px; */
+}
+.Followpage p{
+  font-weight: 500;
+  color: white;
+  font-size: 14px;
+}
+
+.about{
+  color: brown;
+  margin-top: 6.8rem;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 700;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Merriweather', serif;
+}
+.Gandu{
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.aftergandu{
+  background-image: url("../assets/residential.jpg55.jpg");
+  /* position: relative; */
+  min-width: 90%;
+  min-height: 70vh;
+  background-position:center ;
+  background-size: cover;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 5px;
+}
+.afterganduone{
+  background-image: url("../assets/residential.jpg33.jpg");
+  /* position: relative; */
+  min-width: 90%;
+  min-height: 70vh;
+  background-position:center ;
+  background-size: cover;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 5px;
+}
+.resdiv{
+  color: brown;
+  background-color: #d3d1d1;
+  font-size: 22px;
+  font-weight: 800;
+  margin-top:10rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+.resbtn{
+  border: 1px solid brown;
+  color:brown;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 400;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  margin: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.totalblock{
+  margin-bottom: 4.5rem;
+  display: flex;
+  justify-content:space-evenly;
+}
+.comdiv{
+ color:brown;
+ border: 1px solid brown;
+ border-radius: 10px;
+ margin: 10px;
+ padding: 15px 10px 15px 10px;
+ text-align: center;
+ width: 250PX;
+ height: 60PX;
+ margin-left: auto;
+ margin-right: auto;
+}
+.h1heading{
+  color:black;
+  font-family: 'SupercellHeadline-Heavy',sans-serif;
+  font-size: 50px;
+}
+#pheading{
+  color:black;
+  font-family: 'SupercellHeadline-Heavy',sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.carousalall{
+  margin-top: 6.8rem;
+}
+.carousalallA{
+  margin-top: .5rem;
+}
+.whyfonts{
+  font-family: 'Merriweather', serif;
+}
+.resimgall{
+  color: brown;
+  text-align: center;
+  margin-top: 6.8rem;
+  font-family: 'Merriweather', serif;
+}
+.resimgall h1{
+  padding: 10px;
+}
+.resimgall h5{
+  padding: 5px;
+}
+.imgglry{
+  margin-top: 6.5rem;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fixedbutton{
+  /* margin-left: 32rem; */
+  /* display: flex;  */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-left: 40%;
+  position: fixed;
+  margin-top:75vh;
+  z-index: 100;
+  padding: 15px;
+  width: 270px;
+  border-radius: 4px;
+  background-color:brown;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+.dsignglry{
+  overflow: hidden;
+  margin-top: 6rem;
+}
+.whyh1{
+  font-size: 2rem;
+  font-weight: 500;
+  color: #0e2930;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.whyp{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0e2930;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.whyall{
+  margin-left: auto;
+  margin-right: auto;
+}
+.whyimageone{
+  margin-top: 5rem;
+}
+#allourservices{
+  margin-top: 7.4rem;
+  /* margin-bottom: 1rem; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.total-login-from{
+  margin-top: 2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  /* height: 500px; */
+  border: 3px solid #0e2024;
+  border-radius: 10px;
+}
+.total-login-from h2{
+  color: #0e2024;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+.inputbox p{
+  color: #0e2024;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 5px;
+  font-family: 'Merriweather', serif;
+
+}
+input{
+  width: 270px;
+  height: 35px;
+  border-radius: 10px;
+  color: #042930;
+  border: 2px solid #0e2024;
+}
+.button{
+  margin: 10px;
+}
+.button button{
+  width: 90px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #0e2024;
+  background-color: #0e2024;
+  color: white;
+  font-size: 16px;
+}
+.dont-have-account{
+  text-align: center;
+  margin: 10px;
+}
+.contactp{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0e2930;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  margin-left: 5%;
 }
