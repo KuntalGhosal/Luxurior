@@ -35,7 +35,7 @@ export default function Navigation() {
         <NavDropdown.Item as={Link} to={"/comarcialimages"} >Commercial</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link><Link id="navletters" to="/whyluxriror">Why Luxurior?</Link></Nav.Link>
-      <Nav.Link><Link id="navletters" to="/designgallary">Design Gallary</Link></Nav.Link>
+      <Nav.Link><Link id="navletters" to="/designgallary">Design Gallery</Link></Nav.Link>
       <Nav.Link><Link id="navletters" to="/ourservices">Our Services</Link></Nav.Link>
       <Nav.Link><Link id="navletters" to="/contactus">Contact Us</Link></Nav.Link>
       {/* <NavDropdown title="get free estimate" id="nav-dropdown" > */}
