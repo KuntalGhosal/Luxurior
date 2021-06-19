@@ -3,7 +3,7 @@ import Cardone from "../components/Cardone";
 import Oone from "../assets/1_20210530_031340_0000.png"
 import Otwo from "../assets/1_20210530_031512_0000.png"
 import Othree from "../assets/1_20210530_031620_0000.png"
-import Ofour from "../assets/1_20210530_031718_0000.png"
+// import Ofour from "../assets/1_20210530_031718_0000.png"
 import Ofive from "../assets/1_20210530_031908_0000.png"
 import Osix from "../assets/1_20210530_031952_0000.png"
 import Oseven from "../assets/1_20210530_032300_0000.png"
@@ -55,19 +55,19 @@ function Ourservices() {
         </div>
         <div className="allcardtwo">
             <Cardone
-            imglink={Oeight}
+            imglink={Othree}
             something="Light"
             />
             <Cardone
-            imglink={Onine}
+            imglink={Oten}
             something="Walpaper"
             />
             <Cardone
-            imglink={Oten}
+            imglink={Ofive}
             something="Wall Paint"
             />
             <Cardone
-            imglink={Oeleven}
+            imglink={Osix}
             something="Bathroom"
             />
             <Cardone
@@ -75,11 +75,11 @@ function Ourservices() {
             something="Pooja Unit"
             />
             <Cardone
-            imglink={Othirteen}
+            imglink={Oone}
             something="Movable Furniture"
             />
             <Cardone
-            imglink={Ofourteen}
+            imglink={Oeight}
             something="Foyer Designs"
             />
         </div>
